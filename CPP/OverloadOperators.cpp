@@ -1,9 +1,8 @@
 //
-//  main.cpp
-//  GraphTest
+//  OverloadOperators.cpp
+//  HackerRank
 //
 //  Created by Duroni Fabrizio on 04/08/16.
-//  Copyright © 2016 Duroni Fabrizio. All rights reserved.
 //
 //  https://www.hackerrank.com/challenges/overload-operators
 
@@ -13,8 +12,7 @@
 
 using namespace std;
 
-class Complex
-{
+class Complex {
 public:
     
     int a,b;

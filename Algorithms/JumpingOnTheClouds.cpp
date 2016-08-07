@@ -3,7 +3,6 @@
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 01/08/16.
-//  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
 //  https://www.hackerrank.com/challenges/jumping-on-the-clouds
 

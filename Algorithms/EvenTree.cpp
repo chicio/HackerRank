@@ -1,9 +1,8 @@
 //
 //  EvenTree.cpp
-//  GraphTest
+//  HackerRank
 //
 //  Created by Duroni Fabrizio on 04/08/16.
-//  Copyright © 2016 Duroni Fabrizio. All rights reserved.
 //
 //  https://www.hackerrank.com/challenges/even-tree
 

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC6DA521D53F5D300AA8D9B /* EvenTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6DA511D53F5D300AA8D9B /* EvenTree.cpp */; };
-		5FC6DA541D5412A800AA8D9B /* OverloadOperators.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6DA531D5412A800AA8D9B /* OverloadOperators.cpp */; };
+		5FC29BBE1D57C0F4008EE87D /* LisasWorkbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,23 +23,33 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5F537AEF1D4DF1B200A92E71 /* EqualStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EqualStacks.cpp; sourceTree = "<group>"; };
-		5F537AF21D4E263100A92E71 /* IntroToTutorialChallenges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IntroToTutorialChallenges.cpp; sourceTree = "<group>"; };
-		5F537AF51D4E2A7600A92E71 /* FibonacciModified.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciModified.cpp; sourceTree = "<group>"; };
-		5F537AF71D4E4D7C00A92E71 /* CutTheSticks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CutTheSticks.cpp; sourceTree = "<group>"; };
-		5F537AF91D4E559500A92E71 /* NonDivisibleSubset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NonDivisibleSubset.cpp; sourceTree = "<group>"; };
-		5F7374A41D4FFFAE00275B01 /* JumpingOnTheClouds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingOnTheClouds.cpp; sourceTree = "<group>"; };
-		5F7374A61D500C0C00275B01 /* BiggerisGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BiggerisGreater.cpp; sourceTree = "<group>"; };
-		5F8BF97D1D514C1B001131FF /* OperatorOverloading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OperatorOverloading.cpp; sourceTree = "<group>"; };
-		5F8BF97F1D514DFF001131FF /* BitArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitArray.cpp; sourceTree = "<group>"; };
-		5F8BF9811D5168FD001131FF /* VariableSizedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VariableSizedArrays.cpp; sourceTree = "<group>"; };
-		5FC6DA511D53F5D300AA8D9B /* EvenTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvenTree.cpp; sourceTree = "<group>"; };
-		5FC6DA531D5412A800AA8D9B /* OverloadOperators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverloadOperators.cpp; sourceTree = "<group>"; };
+		5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LisasWorkbook.cpp; sourceTree = "<group>"; };
+		5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AngryProfessor.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BiggerIsGreater.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE31D565A0E00A3296C /* CutTheSticks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CutTheSticks.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE41D565A0E00A3296C /* DivisibleSumPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = DivisibleSumPairs.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE51D565A0E00A3296C /* EqualStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = EqualStacks.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE61D565A0E00A3296C /* EvenTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EvenTree.cpp; sourceTree = "<group>"; };
+		5FD07CE71D565A0E00A3296C /* FibonacciModified.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = FibonacciModified.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE81D565A0E00A3296C /* IntroToTutorialChallenges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = IntroToTutorialChallenges.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CE91D565A0E00A3296C /* JumpingOnTheClouds.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = JumpingOnTheClouds.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CEA1D565A0E00A3296C /* NonDivisibleSubset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = NonDivisibleSubset.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CEB1D565A0E00A3296C /* SavethePrisoner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SavethePrisoner.cpp; sourceTree = "<group>"; };
+		5FD07CEC1D565A0E00A3296C /* StrangeCounter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StrangeCounter.cpp; sourceTree = "<group>"; };
+		5FD07CEE1D565A0E00A3296C /* BitArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BitArray.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CEF1D565A0E00A3296C /* OperatorOverloading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = OperatorOverloading.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CF01D565A0E00A3296C /* OverloadOperators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OverloadOperators.cpp; sourceTree = "<group>"; };
+		5FD07CF11D565A0E00A3296C /* SayHelloWorldWithCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = SayHelloWorldWithCpp.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CF21D565A0E00A3296C /* VariableSizedArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = VariableSizedArrays.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07CF31D565A0E00A3296C /* VirtualFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VirtualFunctions.cpp; sourceTree = "<group>"; };
+		5FD07D071D565E1E00A3296C /* BasicDataTypes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BasicDataTypes.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07D091D565E6C00A3296C /* InputAndOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = InputAndOutput.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07D0B1D565EAB00A3296C /* ConditionalStatements.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = ConditionalStatements.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
+		5FD07D0D1D565EFE00A3296C /* ForLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ForLoop.cpp; sourceTree = "<group>"; };
+		5FD07D0F1D5660AC00A3296C /* Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strings.cpp; sourceTree = "<group>"; };
+		5FD07D111D5664CB00A3296C /* StringStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringStream.cpp; sourceTree = "<group>"; };
+		5FD07D151D56793C00A3296C /* JumpingOntheCloudsRevisited.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingOntheCloudsRevisited.cpp; sourceTree = "<group>"; };
 		5FE2DB891D4D5ABD007CDFD2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FE2DB8C1D4D5ABD007CDFD2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5FE2DB931D4D5D4C007CDFD2 /* DivisibleSumPairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivisibleSumPairs.cpp; sourceTree = "<group>"; };
-		5FE2DB951D4D5FD7007CDFD2 /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AngryProfessor.cpp; sourceTree = "<group>"; };
-		5FF535301D4E8618001147CC /* SayHelloWorldWithCpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SayHelloWorldWithCpp.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +63,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FD07CE01D565A0E00A3296C /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */,
+				5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */,
+				5FD07CE31D565A0E00A3296C /* CutTheSticks.cpp */,
+				5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */,
+				5FD07CE41D565A0E00A3296C /* DivisibleSumPairs.cpp */,
+				5FD07CE51D565A0E00A3296C /* EqualStacks.cpp */,
+				5FD07CE61D565A0E00A3296C /* EvenTree.cpp */,
+				5FD07CE71D565A0E00A3296C /* FibonacciModified.cpp */,
+				5FD07CE81D565A0E00A3296C /* IntroToTutorialChallenges.cpp */,
+				5FD07CE91D565A0E00A3296C /* JumpingOnTheClouds.cpp */,
+				5FD07D151D56793C00A3296C /* JumpingOntheCloudsRevisited.cpp */,
+				5FD07CEA1D565A0E00A3296C /* NonDivisibleSubset.cpp */,
+				5FD07CEB1D565A0E00A3296C /* SavethePrisoner.cpp */,
+				5FD07CEC1D565A0E00A3296C /* StrangeCounter.cpp */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		5FD07CED1D565A0E00A3296C /* CPP */ = {
+			isa = PBXGroup;
+			children = (
+				5FD07CEE1D565A0E00A3296C /* BitArray.cpp */,
+				5FD07CEF1D565A0E00A3296C /* OperatorOverloading.cpp */,
+				5FD07CF01D565A0E00A3296C /* OverloadOperators.cpp */,
+				5FD07CF11D565A0E00A3296C /* SayHelloWorldWithCpp.cpp */,
+				5FD07CF21D565A0E00A3296C /* VariableSizedArrays.cpp */,
+				5FD07CF31D565A0E00A3296C /* VirtualFunctions.cpp */,
+				5FD07D071D565E1E00A3296C /* BasicDataTypes.cpp */,
+				5FD07D091D565E6C00A3296C /* InputAndOutput.cpp */,
+				5FD07D0B1D565EAB00A3296C /* ConditionalStatements.cpp */,
+				5FD07D0D1D565EFE00A3296C /* ForLoop.cpp */,
+				5FD07D0F1D5660AC00A3296C /* Strings.cpp */,
+				5FD07D111D5664CB00A3296C /* StringStream.cpp */,
+			);
+			path = CPP;
+			sourceTree = "<group>";
+		};
 		5FE2DB801D4D5ABD007CDFD2 = {
 			isa = PBXGroup;
 			children = (
-				5FE2DB8B1D4D5ABD007CDFD2 /* HackerRank */,
+				5FD07CE01D565A0E00A3296C /* Algorithms */,
+				5FD07CED1D565A0E00A3296C /* CPP */,
 				5FE2DB8A1D4D5ABD007CDFD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,29 +118,6 @@
 				5FE2DB891D4D5ABD007CDFD2 /* HackerRank */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5FE2DB8B1D4D5ABD007CDFD2 /* HackerRank */ = {
-			isa = PBXGroup;
-			children = (
-				5FC6DA531D5412A800AA8D9B /* OverloadOperators.cpp */,
-				5FC6DA511D53F5D300AA8D9B /* EvenTree.cpp */,
-				5F8BF9811D5168FD001131FF /* VariableSizedArrays.cpp */,
-				5F8BF97D1D514C1B001131FF /* OperatorOverloading.cpp */,
-				5F8BF97F1D514DFF001131FF /* BitArray.cpp */,
-				5F7374A61D500C0C00275B01 /* BiggerisGreater.cpp */,
-				5F7374A41D4FFFAE00275B01 /* JumpingOnTheClouds.cpp */,
-				5FF535301D4E8618001147CC /* SayHelloWorldWithCpp.cpp */,
-				5F537AF91D4E559500A92E71 /* NonDivisibleSubset.cpp */,
-				5F537AF71D4E4D7C00A92E71 /* CutTheSticks.cpp */,
-				5F537AF51D4E2A7600A92E71 /* FibonacciModified.cpp */,
-				5F537AF21D4E263100A92E71 /* IntroToTutorialChallenges.cpp */,
-				5F537AEF1D4DF1B200A92E71 /* EqualStacks.cpp */,
-				5FE2DB951D4D5FD7007CDFD2 /* AngryProfessor.cpp */,
-				5FE2DB931D4D5D4C007CDFD2 /* DivisibleSumPairs.cpp */,
-				5FE2DB8C1D4D5ABD007CDFD2 /* main.cpp */,
-			);
-			path = HackerRank;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC6DA521D53F5D300AA8D9B /* EvenTree.cpp in Sources */,
-				5FC6DA541D5412A800AA8D9B /* OverloadOperators.cpp in Sources */,
+				5FC29BBE1D57C0F4008EE87D /* LisasWorkbook.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
