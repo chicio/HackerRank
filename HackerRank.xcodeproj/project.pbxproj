@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC29BBE1D57C0F4008EE87D /* LisasWorkbook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */; };
+		5FB60A531D679C98000F0B82 /* AttendingWorkshops.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB60A521D679C98000F0B82 /* AttendingWorkshops.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,6 +23,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5FB60A3D1D676E45000F0B82 /* Structs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structs.cpp; sourceTree = "<group>"; };
+		5FB60A3F1D6778A1000F0B82 /* Class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class.cpp; sourceTree = "<group>"; };
+		5FB60A411D6778F0000F0B82 /* ClassesAndObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClassesAndObjects.cpp; sourceTree = "<group>"; };
+		5FB60A431D678DB7000F0B82 /* NewYearChaos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NewYearChaos.cpp; sourceTree = "<group>"; };
+		5FB60A451D678E2B000F0B82 /* FlatlandSpaceStations.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FlatlandSpaceStations.cpp; sourceTree = "<group>"; };
+		5FB60A471D67969E000F0B82 /* AbsolutePermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbsolutePermutation.cpp; sourceTree = "<group>"; };
+		5FB60A4A1D6798DA000F0B82 /* MaximumDraws.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaximumDraws.cpp; sourceTree = "<group>"; };
+		5FB60A4C1D6799A9000F0B82 /* BoxIt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoxIt.cpp; sourceTree = "<group>"; };
+		5FB60A4E1D679A9F000F0B82 /* InheritedCode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InheritedCode.cpp; sourceTree = "<group>"; };
+		5FB60A501D679B10000F0B82 /* ExceptionalServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionalServer.cpp; sourceTree = "<group>"; };
+		5FB60A521D679C98000F0B82 /* AttendingWorkshops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttendingWorkshops.cpp; sourceTree = "<group>"; };
 		5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LisasWorkbook.cpp; sourceTree = "<group>"; };
 		5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AngryProfessor.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BiggerIsGreater.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
@@ -63,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FB60A491D6798C5000F0B82 /* Mathematics */ = {
+			isa = PBXGroup;
+			children = (
+				5FB60A4A1D6798DA000F0B82 /* MaximumDraws.cpp */,
+			);
+			path = Mathematics;
+			sourceTree = "<group>";
+		};
 		5FD07CE01D565A0E00A3296C /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +99,9 @@
 				5FD07CEA1D565A0E00A3296C /* NonDivisibleSubset.cpp */,
 				5FD07CEB1D565A0E00A3296C /* SavethePrisoner.cpp */,
 				5FD07CEC1D565A0E00A3296C /* StrangeCounter.cpp */,
+				5FB60A431D678DB7000F0B82 /* NewYearChaos.cpp */,
+				5FB60A451D678E2B000F0B82 /* FlatlandSpaceStations.cpp */,
+				5FB60A471D67969E000F0B82 /* AbsolutePermutation.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -99,6 +121,13 @@
 				5FD07D0D1D565EFE00A3296C /* ForLoop.cpp */,
 				5FD07D0F1D5660AC00A3296C /* Strings.cpp */,
 				5FD07D111D5664CB00A3296C /* StringStream.cpp */,
+				5FB60A3D1D676E45000F0B82 /* Structs.cpp */,
+				5FB60A3F1D6778A1000F0B82 /* Class.cpp */,
+				5FB60A411D6778F0000F0B82 /* ClassesAndObjects.cpp */,
+				5FB60A4C1D6799A9000F0B82 /* BoxIt.cpp */,
+				5FB60A4E1D679A9F000F0B82 /* InheritedCode.cpp */,
+				5FB60A501D679B10000F0B82 /* ExceptionalServer.cpp */,
+				5FB60A521D679C98000F0B82 /* AttendingWorkshops.cpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -108,6 +137,7 @@
 			children = (
 				5FD07CE01D565A0E00A3296C /* Algorithms */,
 				5FD07CED1D565A0E00A3296C /* CPP */,
+				5FB60A491D6798C5000F0B82 /* Mathematics */,
 				5FE2DB8A1D4D5ABD007CDFD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC29BBE1D57C0F4008EE87D /* LisasWorkbook.cpp in Sources */,
+				5FB60A531D679C98000F0B82 /* AttendingWorkshops.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

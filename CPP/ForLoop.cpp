@@ -4,7 +4,7 @@
 //
 //  Created by Fabrizio Duroni on 06/08/16.
 //
-//  https://www.hackerrank.com/challenges/c-tutorial-for-loop/submissions/code/24834683
+//  https://www.hackerrank.com/challenges/c-tutorial-for-loop
 
 #include <iostream>
 #include <cstdio>
