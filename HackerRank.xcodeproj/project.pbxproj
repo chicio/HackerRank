@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5F1A313D1D68B315003E6024 /* CPPVariadics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A313C1D68B315003E6024 /* CPPVariadics.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +19,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
+		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
 		5F1A31351D689171003E6024 /* CPPClassTemplateSpecialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplateSpecialization.cpp; sourceTree = "<group>"; };
 		5F1A31371D6891B8003E6024 /* CPPClassTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplates.cpp; sourceTree = "<group>"; };
 		5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractClassesPolymorphism.cpp; sourceTree = "<group>"; };
@@ -136,6 +134,8 @@
 				5F1A31371D6891B8003E6024 /* CPPClassTemplates.cpp */,
 				5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */,
 				5F1A313C1D68B315003E6024 /* CPPVariadics.cpp */,
+				45CDC3331D6B2404002E6E12 /* VectorSort.cpp */,
+				45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -214,7 +214,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F1A313D1D68B315003E6024 /* CPPVariadics.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
