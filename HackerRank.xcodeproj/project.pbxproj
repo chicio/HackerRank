@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4512BF511D6C77CF00FECE1E /* SetsSTL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4512BF501D6C77CF00FECE1E /* SetsSTL.cpp */; };
+		452A576E1D6CA76100C845E7 /* MapsSTL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452A576D1D6CA76100C845E7 /* MapsSTL.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		4512BF4E1D6C6B9C00FECE1E /* LowerBoundSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerBoundSTL.cpp; sourceTree = "<group>"; };
 		4512BF501D6C77CF00FECE1E /* SetsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetsSTL.cpp; sourceTree = "<group>"; };
+		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
 		5F1A31351D689171003E6024 /* CPPClassTemplateSpecialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplateSpecialization.cpp; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */,
 				4512BF4E1D6C6B9C00FECE1E /* LowerBoundSTL.cpp */,
 				4512BF501D6C77CF00FECE1E /* SetsSTL.cpp */,
+				452A576D1D6CA76100C845E7 /* MapsSTL.cpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -222,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4512BF511D6C77CF00FECE1E /* SetsSTL.cpp in Sources */,
+				452A576E1D6CA76100C845E7 /* MapsSTL.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
