@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		458CA0DB1D6F137900B2C918 /* MultiLevelInheritance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */; };
+		45785E431D70658600CD4E42 /* MagicSpells.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45785E421D70658600CD4E42 /* MagicSpells.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +27,12 @@
 		4512BF501D6C77CF00FECE1E /* SetsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetsSTL.cpp; sourceTree = "<group>"; };
 		4513C66B1D6DF59A007641A2 /* PrintPretty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintPretty.cpp; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
+		45785E421D70658600CD4E42 /* MagicSpells.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicSpells.cpp; sourceTree = "<group>"; };
 		458CA0D61D6F061800B2C918 /* InheritanceIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InheritanceIntroduction.cpp; sourceTree = "<group>"; };
 		458CA0D81D6F074400B2C918 /* RectangleArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleArea.cpp; sourceTree = "<group>"; };
 		458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLevelInheritance.cpp; sourceTree = "<group>"; };
 		458CA0DC1D6F14D800B2C918 /* AccessingInheritedFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccessingInheritedFunctions.cpp; sourceTree = "<group>"; };
+		45B113531D6F45BB009E082F /* DequeSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DequeSTL.cpp; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
 		5F1A31351D689171003E6024 /* CPPClassTemplateSpecialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplateSpecialization.cpp; sourceTree = "<group>"; };
@@ -156,6 +158,8 @@
 				458CA0D81D6F074400B2C918 /* RectangleArea.cpp */,
 				458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */,
 				458CA0DC1D6F14D800B2C918 /* AccessingInheritedFunctions.cpp */,
+				45B113531D6F45BB009E082F /* DequeSTL.cpp */,
+				45785E421D70658600CD4E42 /* MagicSpells.cpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -234,7 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				458CA0DB1D6F137900B2C918 /* MultiLevelInheritance.cpp in Sources */,
+				45785E431D70658600CD4E42 /* MagicSpells.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
