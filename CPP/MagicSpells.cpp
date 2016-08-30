@@ -87,17 +87,24 @@ void counterspell(Spell *spell) {
         string spellRevealed = spell->revealScrollName();
         string spellRead = SpellJournal::read();
         
-        int countSameLetters = 0;
+        unsigned long m = spellRevealed.length();
+        unsigned long n = spellRead.length();
         
-        for (int i = 0; i < spellRead.length(); i++) {
-            
-            if(spellRevealed.find_first_of(spellRead[i]) != string::npos) {
-                
-                countSameLetters++;
+        int L[m + 1][n + 1];
+        int i, j;
+        
+        for (i=0; i <= m; i++) {
+            for (j=0; j<=n; j++) {
+                if (i == 0 || j == 0)
+                    L[i][j] = 0;
+                else if (spellRevealed[i-1] == spellRead[j-1])
+                    L[i][j] = L[i-1][j-1] + 1;
+                else
+                    L[i][j] = max(L[i-1][j], L[i][j-1]);
             }
         }
         
-        cout << countSameLetters << endl;
+        cout << L[m][n] << endl;
     }
 }
 
