@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45785E431D70658600CD4E42 /* MagicSpells.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45785E421D70658600CD4E42 /* MagicSpells.cpp */; };
+		5FFD62E91D7A276B00E5281B /* SuperReducedString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFD62E81D7A276B00E5281B /* SuperReducedString.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,6 +77,9 @@
 		5FD07D111D5664CB00A3296C /* StringStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringStream.cpp; sourceTree = "<group>"; };
 		5FD07D151D56793C00A3296C /* JumpingOntheCloudsRevisited.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingOntheCloudsRevisited.cpp; sourceTree = "<group>"; };
 		5FE2DB891D4D5ABD007CDFD2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FFD62E41D7A13C400E5281B /* FindPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindPoint.cpp; sourceTree = "<group>"; };
+		5FFD62E61D7A145400E5281B /* Handshake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handshake.cpp; sourceTree = "<group>"; };
+		5FFD62E81D7A276B00E5281B /* SuperReducedString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperReducedString.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				5FB60A4A1D6798DA000F0B82 /* MaximumDraws.cpp */,
+				5FFD62E41D7A13C400E5281B /* FindPoint.cpp */,
+				5FFD62E61D7A145400E5281B /* Handshake.cpp */,
 			);
 			path = Mathematics;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 				5FB60A431D678DB7000F0B82 /* NewYearChaos.cpp */,
 				5FB60A451D678E2B000F0B82 /* FlatlandSpaceStations.cpp */,
 				5FB60A471D67969E000F0B82 /* AbsolutePermutation.cpp */,
+				5FFD62E81D7A276B00E5281B /* SuperReducedString.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -238,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45785E431D70658600CD4E42 /* MagicSpells.cpp in Sources */,
+				5FFD62E91D7A276B00E5281B /* SuperReducedString.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
