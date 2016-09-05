@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FF80C561D7C575B0077EF82 /* InsertionSortPart1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */; };
+		5F633C3C1D7DFF28005446E8 /* InsertionSortPart2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +39,7 @@
 		5F1A31371D6891B8003E6024 /* CPPClassTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplates.cpp; sourceTree = "<group>"; };
 		5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractClassesPolymorphism.cpp; sourceTree = "<group>"; };
 		5F1A313C1D68B315003E6024 /* CPPVariadics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPVariadics.cpp; sourceTree = "<group>"; };
+		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
 		5FB60A3D1D676E45000F0B82 /* Structs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structs.cpp; sourceTree = "<group>"; };
 		5FB60A3F1D6778A1000F0B82 /* Class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class.cpp; sourceTree = "<group>"; };
 		5FB60A411D6778F0000F0B82 /* ClassesAndObjects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClassesAndObjects.cpp; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 				5FB60A471D67969E000F0B82 /* AbsolutePermutation.cpp */,
 				5FFD62E81D7A276B00E5281B /* SuperReducedString.cpp */,
 				5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */,
+				5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -246,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF80C561D7C575B0077EF82 /* InsertionSortPart1.cpp in Sources */,
+				5F633C3C1D7DFF28005446E8 /* InsertionSortPart2.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
