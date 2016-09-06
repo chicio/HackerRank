@@ -20,7 +20,7 @@ void printVector(vector<int> ar) {
     }
 }
 
-void insertionSortOnLastElement(vector<int> ar) {
+void insertionSort(vector<int> ar) {
 
     int i = (int)(ar.size() - 1);
     int j = (int)(ar.size() - 2);
@@ -57,7 +57,7 @@ int main(void) {
         _ar.push_back(_ar_tmp);
     }
     
-    insertionSortOnLastElement(_ar);
+    insertionSort(_ar);
     
     return 0;
 }
