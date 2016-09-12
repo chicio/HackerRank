@@ -22,6 +22,13 @@ void printVector(vector<int> ar) {
     cout << endl;
 }
 
+/*
+ Standard insertion sort implementation.
+ 
+ @see https://en.wikipedia.org/wiki/Insertion_sort
+ 
+ @param ar array to be sorted.
+ */
 void insertionSort(vector<int> ar) {
     
     int value;
