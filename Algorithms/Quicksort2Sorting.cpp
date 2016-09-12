@@ -21,67 +21,39 @@ void printVector(vector<int> ar, int min, int max) {
     cout << endl;
 }
 
-void swap(vector<int>& ar, int i, int j) {
-    
-    int temp = ar[i];
-    ar[i] = ar[j];
-    ar[j] = temp;
-}
 
-/*
- Standard quicksort partition function implementation
- using Hoare partition scheme, returning the j position of the pivot.
- 
- @see https://en.wikipedia.org/wiki/Quicksort#Hoare_partition_scheme
- 
- @param ar array to be partitioned.
- @param p pivot element and first element to be considered in the array.
- @param q last element to be considered in the array.
- 
- @return j, the new position of the pivot.
- */
-int partition(vector<int>&  ar, int p, int q) {
+void quickSort(vector <int> &ar) {
     
-    int i = p;
-    int j = q;
+    if(ar.size() <= 1) {
+        return;
+    }
     
-    //ar[p] is the pivot element.
-    while (i <= j) {
+    vector<int> left;
+    vector<int> right;
+
+    int pivot = ar[0];
+    
+    for (int i = 1; i < ar.size(); ++i) {
         
-        while(ar[j] > ar[p]) {
+        if(ar[i] <= pivot) {
             
-            j--;
-        }
-        
-        while (ar[i] <= ar[p] && i <= j) {
+            left.push_back(ar[i]);
+        } else {
             
-            i++;
-        }
-        
-        if (i < j) {
-            
-            swap(ar, i, j);
-            i++;
-            j--;
+            right.push_back(ar[i]);
         }
     }
     
-    swap(ar, p, j);
+    quickSort(left);
+    quickSort(right);
     
-    return j;
-}
-
-void quickSort(vector <int> &ar, int low, int high) {
-
-
-    if(low < high) {
-        
-        int p = partition(ar, low, high);
-        quickSort(ar, low, p);
-        quickSort(ar, p + 1, high);
-
-        printVector(ar, low, high);
-    }
+    ar.clear();
+    ar.reserve(left.size() + right.size() + 1);
+    ar.insert(ar.end(), left.begin(), left.end());
+    ar.push_back(pivot);
+    ar.insert(ar.end(), right.begin(), right.end());
+    
+    printVector(ar, 0, (int)ar.size() - 1);
 }
 
 int main() {
@@ -89,16 +61,15 @@ int main() {
     int n;
     cin >> n;
     
-    vector <int> arr(n);
+    vector<int> arr(n);
     
     for(int i = 0; i < (int)n; ++i) {
         
         cin >> arr[i];
     }
     
-    quickSort(arr, 0, (int)arr.size() - 1);
+    quickSort(arr);
     
-    printVector(arr, 0, (int)arr.size() - 1);
     
     return 0;
 }
