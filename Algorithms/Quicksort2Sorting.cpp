@@ -21,16 +21,8 @@ void printVector(vector<int> ar, int min, int max) {
     cout << endl;
 }
 
-
-void quickSort(vector <int> &ar) {
+int partition(vector<int>& ar, vector<int>& left, vector<int>& right) {
     
-    if(ar.size() <= 1) {
-        return;
-    }
-    
-    vector<int> left;
-    vector<int> right;
-
     int pivot = ar[0];
     
     for (int i = 1; i < ar.size(); ++i) {
@@ -44,6 +36,26 @@ void quickSort(vector <int> &ar) {
         }
     }
     
+    return pivot;
+}
+
+/*
+ I tried to stick with the standard quicksort implentation using Hoare
+ partition scheme, but at the moment it seems impossible for me to 
+ get the desired output of the exercise. 
+ I changed the implementation from my previous exercise (Quicksort1Partition)
+ to support partition using left and right vectors.
+ */
+void quickSort(vector <int> &ar) {
+    
+    if(ar.size() <= 1) {
+        return;
+    }
+    
+    vector<int> left;
+    vector<int> right;
+
+    int pivot = partition(ar, left, right);
     quickSort(left);
     quickSort(right);
     
