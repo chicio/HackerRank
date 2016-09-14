@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FDBAF821D8626AA000F0690 /* Quicksort2Sorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FDBAF811D8626AA000F0690 /* Quicksort2Sorting.cpp */; };
+		45A23BBD1D896A9B00ECCF33 /* QuicksortInPlace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +34,7 @@
 		458CA0D81D6F074400B2C918 /* RectangleArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleArea.cpp; sourceTree = "<group>"; };
 		458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLevelInheritance.cpp; sourceTree = "<group>"; };
 		458CA0DC1D6F14D800B2C918 /* AccessingInheritedFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccessingInheritedFunctions.cpp; sourceTree = "<group>"; };
+		45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuicksortInPlace.cpp; sourceTree = "<group>"; };
 		45B113531D6F45BB009E082F /* DequeSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DequeSTL.cpp; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
@@ -134,6 +135,7 @@
 				5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */,
 				5FDBAF7E1D861D5E000F0690 /* Quicksort1Partition.cpp */,
 				5FDBAF811D8626AA000F0690 /* Quicksort2Sorting.cpp */,
+				45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */,
 				45240F6C1D7EDE1D00A307E2 /* CorrectnessAndtheLoopInvariant.cpp */,
 				45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */,
 			);
@@ -256,7 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FDBAF821D8626AA000F0690 /* Quicksort2Sorting.cpp in Sources */,
+				45A23BBD1D896A9B00ECCF33 /* QuicksortInPlace.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

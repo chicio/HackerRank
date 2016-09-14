@@ -5,6 +5,7 @@
 //  Created by Fabrizio Duroni on 12/09/16.
 //  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
+//  https://www.hackerrank.com/challenges/quicksort2
 
 #include <iostream>
 #include <vector>
