@@ -34,7 +34,7 @@ int main() {
         c[arr[i]]++;
     }
     
-    for (int i = 0; i < (int)c.size(); ++i) {
+    for (int i = 0; i < (int)c.size(); i++) {
         
         cout << c[i] << " ";
     }
