@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A23BBD1D896A9B00ECCF33 /* QuicksortInPlace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */; };
+		5F24E62C1D8B6628002EC132 /* CountingSort1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +42,18 @@
 		5F1A31371D6891B8003E6024 /* CPPClassTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplates.cpp; sourceTree = "<group>"; };
 		5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractClassesPolymorphism.cpp; sourceTree = "<group>"; };
 		5F1A313C1D68B315003E6024 /* CPPVariadics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPVariadics.cpp; sourceTree = "<group>"; };
+		5F24E6151D8B5F5F002EC132 /* RunningTimeOfQuicksort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfQuicksort.cpp; sourceTree = "<group>"; };
+		5F24E6171D8B61B6002EC132 /* SolveMeFirst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolveMeFirst.cpp; sourceTree = "<group>"; };
+		5F24E6191D8B620C002EC132 /* SimpleArraySum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleArraySum.cpp; sourceTree = "<group>"; };
+		5F24E61B1D8B6257002EC132 /* CompareTheTriplets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompareTheTriplets.cpp; sourceTree = "<group>"; };
+		5F24E61D1D8B62A7002EC132 /* AVeryBigSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVeryBigSum.cpp; sourceTree = "<group>"; };
+		5F24E61F1D8B62E0002EC132 /* DiagonalDifference.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiagonalDifference.cpp; sourceTree = "<group>"; };
+		5F24E6211D8B6313002EC132 /* PlusMinus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PlusMinus.cpp; sourceTree = "<group>"; };
+		5F24E6231D8B636D002EC132 /* Staircase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Staircase.cpp; sourceTree = "<group>"; };
+		5F24E6251D8B63AD002EC132 /* TimeConversion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeConversion.cpp; sourceTree = "<group>"; };
+		5F24E6271D8B63F1002EC132 /* CircularArrayRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircularArrayRotation.cpp; sourceTree = "<group>"; };
+		5F24E6291D8B647A002EC132 /* Kangaroo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kangaroo.cpp; sourceTree = "<group>"; };
+		5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort1.cpp; sourceTree = "<group>"; };
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
 		5FB60A3D1D676E45000F0B82 /* Structs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structs.cpp; sourceTree = "<group>"; };
 		5FB60A3F1D6778A1000F0B82 /* Class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Class.cpp; sourceTree = "<group>"; };
@@ -136,8 +148,20 @@
 				5FDBAF7E1D861D5E000F0690 /* Quicksort1Partition.cpp */,
 				5FDBAF811D8626AA000F0690 /* Quicksort2Sorting.cpp */,
 				45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */,
+				5F24E6151D8B5F5F002EC132 /* RunningTimeOfQuicksort.cpp */,
 				45240F6C1D7EDE1D00A307E2 /* CorrectnessAndtheLoopInvariant.cpp */,
 				45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */,
+				5F24E6171D8B61B6002EC132 /* SolveMeFirst.cpp */,
+				5F24E6191D8B620C002EC132 /* SimpleArraySum.cpp */,
+				5F24E61B1D8B6257002EC132 /* CompareTheTriplets.cpp */,
+				5F24E61D1D8B62A7002EC132 /* AVeryBigSum.cpp */,
+				5F24E61F1D8B62E0002EC132 /* DiagonalDifference.cpp */,
+				5F24E6211D8B6313002EC132 /* PlusMinus.cpp */,
+				5F24E6231D8B636D002EC132 /* Staircase.cpp */,
+				5F24E6251D8B63AD002EC132 /* TimeConversion.cpp */,
+				5F24E6271D8B63F1002EC132 /* CircularArrayRotation.cpp */,
+				5F24E6291D8B647A002EC132 /* Kangaroo.cpp */,
+				5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -258,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45A23BBD1D896A9B00ECCF33 /* QuicksortInPlace.cpp in Sources */,
+				5F24E62C1D8B6628002EC132 /* CountingSort1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

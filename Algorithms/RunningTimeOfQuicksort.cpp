@@ -1,26 +1,19 @@
 //
-//  QuicksortInPlace.cpp
+//  RunningTimeofQuicksort.cpp
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 14/09/16.
+//  Created by Fabrizio Duroni on 16/09/16.
 //  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
-//  https://www.hackerrank.com/challenges/quicksort3
+//  https://www.hackerrank.com/challenges/quicksort4
 
 #include <vector>
 #include <iostream>
 
 using namespace std;
 
-void printVector(vector<int> ar, int min, int max) {
-    
-    for (int i = min; i <= max; i++) {
-        
-        cout << ar[i] << " ";
-    }
-    
-    cout << endl;
-}
+static int swapQuicksort = 0;
+static int swapInsertionSort = 0;
 
 void swap(vector<int>& ar, int i, int j) {
     
@@ -49,12 +42,16 @@ int partition(vector<int>& arr, int low, int high) {
             
             swap(arr, i, j);
             i++;
+            
+            //Count swap quicksort.
+            swapQuicksort++;
         }
     }
     
     swap(arr, i, high);
-    
-    printVector(arr, 0, (int)arr.size() - 1);
+
+    //Count swap quicksort.
+    swapQuicksort++;
     
     return i;
 }
@@ -77,10 +74,40 @@ void quickSort(vector<int>& arr, int low, int high) {
     }
 }
 
+/*
+ Standard insertion sort implementation.
+ 
+ @see https://en.wikipedia.org/wiki/Insertion_sort
+ 
+ @param ar array to be sorted.
+ */
+void insertionSort(vector<int> ar) {
+    
+    int value;
+    int j;
+    
+    for (int i = 1; i < ar.size(); i++) {
+        
+        value = ar[i];
+        j = i - 1;
+        
+        while (j >= 0 && ar[j] > value) {
+            
+            swap(ar, j, j + 1);
+            j--;
+            
+            //Count swap insertion sort.
+            swapInsertionSort++;
+        }
+        
+        ar[j + 1] = value;
+    
+    }
+}
+
 int main() {
     
     int n;
-    
     cin >> n;
     
     vector<int> arr(n);
@@ -90,7 +117,10 @@ int main() {
         cin >> arr[i];
     }
     
+    insertionSort(arr);
     quickSort(arr, 0, n - 1);
+    
+    cout << swapInsertionSort - swapQuicksort;
     
     return 0;
 }
