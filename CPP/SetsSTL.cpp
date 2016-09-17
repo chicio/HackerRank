@@ -3,7 +3,6 @@
 //  HackerRank
 //
 //  Created by Duroni Fabrizio on 23/08/16.
-//  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
 //  https://www.hackerrank.com/challenges/cpp-sets
 

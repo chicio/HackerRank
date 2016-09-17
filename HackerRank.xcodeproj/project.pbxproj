@@ -51,6 +51,8 @@
 		5F24E6291D8B647A002EC132 /* Kangaroo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kangaroo.cpp; sourceTree = "<group>"; };
 		5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort1.cpp; sourceTree = "<group>"; };
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
+		5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosetsNumber.cpp; sourceTree = "<group>"; };
+		5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day0HelloWorld.swift; path = 30DaysOfCode/Day0HelloWorld.swift; sourceTree = SOURCE_ROOT; };
 		5F83D3671D8C78500026D183 /* CountingSort2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort2.cpp; sourceTree = "<group>"; };
 		5F83D3691D8C7D860026D183 /* CountingSort3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort3.cpp; sourceTree = "<group>"; };
 		5F83D36C1D8C85520026D183 /* TheFullCountingSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TheFullCountingSort.cpp; sourceTree = "<group>"; };
@@ -111,6 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F7CA90E1D8D771C006867DD /* 30DaysOfCode */ = {
+			isa = PBXGroup;
+			children = (
+				5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */,
+			);
+			name = 30DaysOfCode;
+			path = 30DaysofCode;
+			sourceTree = "<group>";
+		};
 		5FB60A491D6798C5000F0B82 /* Mathematics */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +175,7 @@
 				5F83D3671D8C78500026D183 /* CountingSort2.cpp */,
 				5F83D3691D8C7D860026D183 /* CountingSort3.cpp */,
 				5F83D36C1D8C85520026D183 /* TheFullCountingSort.cpp */,
+				5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -213,6 +225,7 @@
 		5FE2DB801D4D5ABD007CDFD2 = {
 			isa = PBXGroup;
 			children = (
+				5F7CA90E1D8D771C006867DD /* 30DaysOfCode */,
 				5FD07CE01D565A0E00A3296C /* Algorithms */,
 				5FD07CED1D565A0E00A3296C /* CPP */,
 				5FB60A491D6798C5000F0B82 /* Mathematics */,
@@ -259,6 +272,7 @@
 				TargetAttributes = {
 					5FE2DB881D4D5ABD007CDFD2 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -374,14 +388,21 @@
 		5FE2DB911D4D5ABD007CDFD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		5FE2DB921D4D5ABD007CDFD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

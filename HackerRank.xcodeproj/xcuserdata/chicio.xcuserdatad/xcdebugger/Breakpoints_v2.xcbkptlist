@@ -128,7 +128,7 @@
             startingLineNumber = "43"
             endingLineNumber = "43"
             landmarkName = "initialize (int start_time[], int duration[], int n)"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -144,7 +144,7 @@
             startingLineNumber = "154"
             endingLineNumber = "154"
             landmarkName = "main()"
-            landmarkType = "7">
+            landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
