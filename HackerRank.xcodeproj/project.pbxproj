@@ -38,6 +38,7 @@
 		5F1A31371D6891B8003E6024 /* CPPClassTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplates.cpp; sourceTree = "<group>"; };
 		5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractClassesPolymorphism.cpp; sourceTree = "<group>"; };
 		5F1A313C1D68B315003E6024 /* CPPVariadics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPVariadics.cpp; sourceTree = "<group>"; };
+		5F2011E21D8ED0340001FE86 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day1DataTypes.swift; path = 30DaysOfCode/Day1DataTypes.swift; sourceTree = SOURCE_ROOT; };
 		5F24E6151D8B5F5F002EC132 /* RunningTimeOfQuicksort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfQuicksort.cpp; sourceTree = "<group>"; };
 		5F24E6171D8B61B6002EC132 /* SolveMeFirst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolveMeFirst.cpp; sourceTree = "<group>"; };
 		5F24E6191D8B620C002EC132 /* SimpleArraySum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleArraySum.cpp; sourceTree = "<group>"; };
@@ -117,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */,
+				5F2011E21D8ED0340001FE86 /* Day1DataTypes.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
