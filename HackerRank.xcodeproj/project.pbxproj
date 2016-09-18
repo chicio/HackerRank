@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F2011E51D8ED34B0001FE86 /* FindtheMedian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2011E41D8ED34B0001FE86 /* FindtheMedian.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -39,6 +43,7 @@
 		5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractClassesPolymorphism.cpp; sourceTree = "<group>"; };
 		5F1A313C1D68B315003E6024 /* CPPVariadics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPVariadics.cpp; sourceTree = "<group>"; };
 		5F2011E21D8ED0340001FE86 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day1DataTypes.swift; path = 30DaysOfCode/Day1DataTypes.swift; sourceTree = SOURCE_ROOT; };
+		5F2011E41D8ED34B0001FE86 /* FindtheMedian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindtheMedian.cpp; sourceTree = "<group>"; };
 		5F24E6151D8B5F5F002EC132 /* RunningTimeOfQuicksort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfQuicksort.cpp; sourceTree = "<group>"; };
 		5F24E6171D8B61B6002EC132 /* SolveMeFirst.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SolveMeFirst.cpp; sourceTree = "<group>"; };
 		5F24E6191D8B620C002EC132 /* SimpleArraySum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleArraySum.cpp; sourceTree = "<group>"; };
@@ -178,6 +183,7 @@
 				5F83D3691D8C7D860026D183 /* CountingSort3.cpp */,
 				5F83D36C1D8C85520026D183 /* TheFullCountingSort.cpp */,
 				5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */,
+				5F2011E41D8ED34B0001FE86 /* FindtheMedian.cpp */,
 			);
 			path = Algorithms;
 			sourceTree = "<group>";
@@ -300,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F2011E51D8ED34B0001FE86 /* FindtheMedian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
