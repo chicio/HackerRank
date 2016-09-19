@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5F2011E51D8ED34B0001FE86 /* FindtheMedian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2011E41D8ED34B0001FE86 /* FindtheMedian.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -35,6 +31,7 @@
 		458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLevelInheritance.cpp; sourceTree = "<group>"; };
 		458CA0DC1D6F14D800B2C918 /* AccessingInheritedFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccessingInheritedFunctions.cpp; sourceTree = "<group>"; };
 		45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuicksortInPlace.cpp; sourceTree = "<group>"; };
+		45A635DB1D8FFC1200E2AC94 /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day2Operators.swift; path = 30DaysOfCode/Day2Operators.swift; sourceTree = SOURCE_ROOT; };
 		45B113531D6F45BB009E082F /* DequeSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DequeSTL.cpp; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
@@ -124,6 +121,7 @@
 			children = (
 				5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */,
 				5F2011E21D8ED0340001FE86 /* Day1DataTypes.swift */,
+				45A635DB1D8FFC1200E2AC94 /* Day2Operators.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -306,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2011E51D8ED34B0001FE86 /* FindtheMedian.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
