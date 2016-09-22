@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  Day3IntroToConditionalStatements.swift
 //  HackerRank
 //
 //  Created by Duroni Fabrizio on 20/09/16.

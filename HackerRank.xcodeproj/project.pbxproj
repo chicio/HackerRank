@@ -25,6 +25,8 @@
 		45240F6C1D7EDE1D00A307E2 /* CorrectnessAndtheLoopInvariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CorrectnessAndtheLoopInvariant.cpp; sourceTree = "<group>"; };
 		45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfAlgorithms.cpp; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
+		4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
+		4576A8111D93F79D0013A1B9 /* HackerRank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerRank-Bridging-Header.h"; sourceTree = "<group>"; };
 		45785E421D70658600CD4E42 /* MagicSpells.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicSpells.cpp; sourceTree = "<group>"; };
 		458CA0D61D6F061800B2C918 /* InheritanceIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InheritanceIntroduction.cpp; sourceTree = "<group>"; };
 		458CA0D81D6F074400B2C918 /* RectangleArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleArea.cpp; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				45A635DB1D8FFC1200E2AC94 /* Day2Operators.swift */,
 				459123F81D915C0F0044C589 /* Day3IntroToConditionalStatements.swift */,
 				5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */,
+				4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -235,6 +238,7 @@
 		5FE2DB801D4D5ABD007CDFD2 = {
 			isa = PBXGroup;
 			children = (
+				4576A8111D93F79D0013A1B9 /* HackerRank-Bridging-Header.h */,
 				5F7CA90E1D8D771C006867DD /* 30DaysOfCode */,
 				5FD07CE01D565A0E00A3296C /* Algorithms */,
 				5FD07CED1D565A0E00A3296C /* CPP */,
@@ -401,6 +405,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackerRank-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
@@ -412,6 +417,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HackerRank-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

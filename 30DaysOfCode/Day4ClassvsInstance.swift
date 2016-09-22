@@ -3,8 +3,8 @@
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 21/09/2016.
-//  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
+//  https://www.hackerrank.com/challenges/30-class-vs-instance
 
 import Foundation
 
