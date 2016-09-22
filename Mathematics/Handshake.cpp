@@ -27,7 +27,7 @@ using namespace std;
  This is the formula used below to compute the 
  number of handshakes between board members.
  */
-int main(){
+int main() {
     
     int t;
     

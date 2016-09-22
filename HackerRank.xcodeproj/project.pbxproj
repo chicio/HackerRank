@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F381CBE1D947B550023BA32 /* 2DArraysDS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F381CBD1D947B550023BA32 /* 2DArraysDS.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -56,6 +60,10 @@
 		5F24E6271D8B63F1002EC132 /* CircularArrayRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircularArrayRotation.cpp; sourceTree = "<group>"; };
 		5F24E6291D8B647A002EC132 /* Kangaroo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kangaroo.cpp; sourceTree = "<group>"; };
 		5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort1.cpp; sourceTree = "<group>"; };
+		5F381CB61D94717D0023BA32 /* PossiblePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PossiblePath.cpp; sourceTree = "<group>"; };
+		5F381CB91D947A2E0023BA32 /* ArraysIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysIntroduction.cpp; sourceTree = "<group>"; };
+		5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
+		5F381CBD1D947B550023BA32 /* 2DArraysDS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 2DArraysDS.cpp; sourceTree = "<group>"; };
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
 		5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosetsNumber.cpp; sourceTree = "<group>"; };
@@ -120,6 +128,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F381CB81D94795E0023BA32 /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */,
+				5F381CBD1D947B550023BA32 /* 2DArraysDS.cpp */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
 		5F7CA90E1D8D771C006867DD /* 30DaysOfCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +157,7 @@
 				5FB60A4A1D6798DA000F0B82 /* MaximumDraws.cpp */,
 				5FFD62E41D7A13C400E5281B /* FindPoint.cpp */,
 				5FFD62E61D7A145400E5281B /* Handshake.cpp */,
+				5F381CB61D94717D0023BA32 /* PossiblePath.cpp */,
 			);
 			path = Mathematics;
 			sourceTree = "<group>";
@@ -231,6 +249,7 @@
 				458CA0DC1D6F14D800B2C918 /* AccessingInheritedFunctions.cpp */,
 				45B113531D6F45BB009E082F /* DequeSTL.cpp */,
 				45785E421D70658600CD4E42 /* MagicSpells.cpp */,
+				5F381CB91D947A2E0023BA32 /* ArraysIntroduction.cpp */,
 			);
 			path = CPP;
 			sourceTree = "<group>";
@@ -242,6 +261,7 @@
 				5F7CA90E1D8D771C006867DD /* 30DaysOfCode */,
 				5FD07CE01D565A0E00A3296C /* Algorithms */,
 				5FD07CED1D565A0E00A3296C /* CPP */,
+				5F381CB81D94795E0023BA32 /* DataStructures */,
 				5FB60A491D6798C5000F0B82 /* Mathematics */,
 				5FE2DB8A1D4D5ABD007CDFD2 /* Products */,
 			);
@@ -312,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F381CBE1D947B550023BA32 /* 2DArraysDS.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
