@@ -211,13 +211,12 @@ int main() {
         
         for (int h = 0; h < queryExploded.size(); h++) {
             
-            size_t found = queryExploded[h].find("~");
+            vector<string> query = explode(queryExploded[h], '~');
             
-            if (found != string::npos) {
+            if (query.size() > 1) {
                 
-                vector<string> lastQuery = explode(queryExploded[h], '~');
-                string lastTag = lastQuery[0];
-                string attribute = lastQuery[1];
+                string lastTag = query[0];
+                string attribute = query[1];
                 
                 findTag(h, tagToBeFound, rootTags, lastTag);
                 
