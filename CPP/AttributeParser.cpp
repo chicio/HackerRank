@@ -102,6 +102,17 @@ Tag* findRootTag(const vector<Tag*>& rootTags, const string& tagNameToBeFound) {
     return nullptr;
 }
 
+void findTag(int tagPositionInQuery, Tag*& tagToBeFound, const vector<Tag*>& rootTags, const string& tagNameToBeFound) {
+    
+    if (tagPositionInQuery == 0) {
+        
+        tagToBeFound = findRootTag(rootTags, tagNameToBeFound);
+    } else {
+        
+        tagToBeFound = visitChildren(tagToBeFound, tagNameToBeFound);
+    }
+}
+
 int main() {
     
     //n is the number of lines.
@@ -168,7 +179,7 @@ int main() {
             lastCreatedTag = newTag;
         } else {
             
-            //closing tag.
+            //Closing tag.
             //Warning: multiple root tags in a some test cases.
             if (lastCreatedTag && lastCreatedTag->father) {
                 
@@ -208,13 +219,7 @@ int main() {
                 string lastTag = lastQuery[0];
                 string attribute = lastQuery[1];
                 
-                if (h == 0) {
-                    
-                    tagToBeFound = findRootTag(rootTags, lastTag);
-                } else {
-                    
-                    tagToBeFound = visitChildren(tagToBeFound, lastTag);
-                }
+                findTag(h, tagToBeFound, rootTags, lastTag);
                 
                 //Tag or attribute not found.
                 if (tagToBeFound == nullptr ||
@@ -227,13 +232,8 @@ int main() {
                 }
             } else {
                 
-                if (h == 0) {
-                    
-                    tagToBeFound = findRootTag(rootTags, queryExploded[h]);
-                } else {
-                    
-                    tagToBeFound = visitChildren(tagToBeFound, queryExploded[h]);
-                }
+                //Find generic tag
+                findTag(h, tagToBeFound, rootTags, queryExploded[h]);
                 
                 if (tagToBeFound == nullptr) {
                     
