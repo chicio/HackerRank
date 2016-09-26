@@ -15,14 +15,14 @@
 
 using namespace std;
 
-struct Tag {
-    
-    string name;
-    Tag* father;
-    vector<Tag*> children;
-    map<string, string> attributes;
-};
-
+/**
+ Explode a string using delimeter passed as parameter.
+ 
+ @param s string to be exploded.
+ @param delim delimiter to be used during explode process.
+ 
+ @returns vector with substring after "explosion".
+ */
 vector<string> explode(const string &s, char delim) {
     
     vector<string> elems;
@@ -37,6 +37,13 @@ vector<string> explode(const string &s, char delim) {
     return elems;
 }
 
+/**
+ Trim a string.
+ 
+ @param string to be trimmed.
+ 
+ @returns a copy of the string trimmed.
+ */
 string trim(string& str) {
     
     size_t first = str.find_first_not_of(' ');
@@ -44,6 +51,21 @@ string trim(string& str) {
     
     return str.substr(first, (last - first + 1));
 }
+
+/**
+ Struct used to represend tags of the hrml document.
+ */
+struct Tag {
+    
+    //Tag name.
+    string name;
+    //Father of the tag.
+    Tag* father;
+    //Children tags of the tag.
+    vector<Tag*> children;
+    //Attributes of the tag.
+    map<string, string> attributes;
+};
 
 static Tag* tagFound;
 
@@ -59,6 +81,7 @@ void visitChildren(Tag* tag, string tagToBeFound) {
     }
 }
 
+
 int main() {
     
     //n is the number of lines.
@@ -68,8 +91,6 @@ int main() {
     cin >> n >> q;
     
     //Read parameters.
-    vector<string> queries(q);
-    string hrmlSource = "";
     string currentLine;
     getline(cin, currentLine);
     
@@ -82,6 +103,7 @@ int main() {
     
     for (int i = 0; i < n; i++) {
         
+        //Get current hrml line.
         getline(cin, currentLine);
         
         smatch m;
@@ -94,16 +116,14 @@ int main() {
             
             if (currentFatherTag != nullptr) {
                 
+                //Add new tag to children of current father tag.
                 currentFatherTag->children.push_back(newTag);
                 newTag->father = currentFatherTag;
-            } else {
-                
-                currentFatherTag = newTag;
             }
             
             currentFatherTag = newTag;
-
             
+            //Extract attributes from current tag.
             regex_iterator<string::iterator> rit(currentLine.begin(), currentLine.end(), attributes);
             regex_iterator<string::iterator> rend;
             
@@ -124,6 +144,7 @@ int main() {
                 rit++;
             }
             
+            //Last open tag is the last created tag.
             lastCreatedTag = newTag;
         } else {
             
@@ -150,12 +171,14 @@ int main() {
         
         cin >> query;
         
+        
         tagToBeFound = nullptr;
         vector<string> queryExploded = explode(query, '.');
         
         for (int h = 0; h < queryExploded.size(); h++) {
             
             size_t found = queryExploded[h].find("~");
+            tagFound = nullptr;
             
             if (found != string::npos) {
                 
@@ -180,7 +203,6 @@ int main() {
                     }
                 }
                 
-                tagFound = nullptr;
                 visitChildren(tagToBeFound, lastTag);
                 
                 if (h == 0 && tagToBeFound->name == lastTag) {
@@ -223,7 +245,6 @@ int main() {
                     }
                 } else {
                     
-                    tagFound = nullptr;
                     visitChildren(tagToBeFound, queryExploded[h]);
                     
                     if (tagFound != nullptr) {
