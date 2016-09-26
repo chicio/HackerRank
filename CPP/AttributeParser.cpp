@@ -89,6 +89,14 @@ Tag* visitChildren(Tag* tag, string tagNameToBeFound) {
     return nullptr;
 }
 
+/**
+ Find root tag given a tag name.
+ 
+ @param rootTags vector of root tags.
+ @param tagNameToBeFound tag to be found in the vector of root nodes.
+ 
+ @returns the root tag found, if there's one.
+ */
 Tag* findRootTag(const vector<Tag*>& rootTags, const string& tagNameToBeFound) {
     
     for (int i = 0; i < rootTags.size(); i++) {
@@ -102,6 +110,14 @@ Tag* findRootTag(const vector<Tag*>& rootTags, const string& tagNameToBeFound) {
     return nullptr;
 }
 
+/**
+ Find a tag.
+ 
+ @param tagPositionInQuery tag position in query.
+ @param tagToBeFound tag to be found (ASSIGNED new tag found).
+ @param rootTags vector of root tags.
+ @param tagNameToBeFound tag to be found in the vector of root nodes.
+ */
 void findTag(int tagPositionInQuery, Tag*& tagToBeFound, const vector<Tag*>& rootTags, const string& tagNameToBeFound) {
     
     if (tagPositionInQuery == 0) {
