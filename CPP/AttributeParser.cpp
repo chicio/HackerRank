@@ -90,18 +90,15 @@ Tag* visitChildren(Tag* tag, string tagNameToBeFound) {
     return nullptr;
 }
 
-bool findRootTag(const vector<Tag*>& rootTags, const string& tagNameToBeFound, Tag*& tagToBeFound) {
+void findRootTag(const vector<Tag*>& rootTags, const string& tagNameToBeFound, Tag*& tagToBeFound) {
     
     for (int i = 0; i < rootTags.size(); i++) {
         
         if (rootTags[i]->name == tagNameToBeFound) {
             
             tagToBeFound = rootTags[i];
-            return true;
         }
     }
-    
-    return false;
 }
 
 int main() {
@@ -179,7 +176,7 @@ int main() {
                 currentFatherTag = lastCreatedTag->father;
                 lastCreatedTag = lastCreatedTag->father;
             } else {
-             
+                
                 if (currentFatherTag) {
                     
                     //In this case currentFatherTag is a root tag.
@@ -203,7 +200,7 @@ int main() {
         for (int h = 0; h < queryExploded.size(); h++) {
             
             size_t found = queryExploded[h].find("~");
-
+            
             if (found != string::npos) {
                 
                 vector<string> lastQuery = explode(queryExploded[h], '~');
@@ -212,51 +209,34 @@ int main() {
                 
                 if (h == 0) {
                     
-                    if(!findRootTag(rootTags, lastTag, tagToBeFound)) {
-                        
-                        cout << "Not Found!" << endl;
-                        break;
-                    }
+                    findRootTag(rootTags, lastTag, tagToBeFound);
                 } else {
-
+                    
                     tagToBeFound = visitChildren(tagToBeFound, lastTag);
                 }
                 
-                if (tagToBeFound != nullptr) {
-                    
-                    //Key exists
-                    if (tagToBeFound->attributes.find(attribute) == tagToBeFound->attributes.end()) {
-                        
-                        cout << "Not Found!" << endl;
-                    } else {
-                        
-                        cout << tagToBeFound->attributes[attribute] << endl;
-                    }
-                } else {
+                //Tag or attribute not found.
+                if (tagToBeFound == nullptr || tagToBeFound->attributes.find(attribute) == tagToBeFound->attributes.end()) {
                     
                     cout << "Not Found!" << endl;
+                } else {
+                    
+                    cout << tagToBeFound->attributes[attribute] << endl;
                 }
-                
-                //In every case b
-                //break;
             } else {
                 
                 if (h == 0) {
                     
-                    if(!findRootTag(rootTags, queryExploded[h], tagToBeFound)) {
-                    
-                        cout << "Not Found!" << endl;
-                        break;
-                    }
+                    findRootTag(rootTags, queryExploded[h], tagToBeFound);
                 } else {
                     
                     tagToBeFound = visitChildren(tagToBeFound, queryExploded[h]);
+                }
+                
+                if (tagToBeFound == nullptr) {
                     
-                    if (tagToBeFound == nullptr) {
-                        
-                        cout << "Not Found!" << endl;
-                        break;
-                    }
+                    cout << "Not Found!" << endl;
+                    break;
                 }
             }
         }
