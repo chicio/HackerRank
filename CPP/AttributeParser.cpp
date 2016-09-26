@@ -77,7 +77,8 @@ int main() {
     regex attributes(R"(([^\s]+){1}(\s)?(=){1}(\s)?(".*?"){1})");
     
     Tag* currentFatherTag = nullptr;
-    Tag* rootTag = nullptr;
+    Tag* lastCreatedTag = nullptr;
+    vector<Tag*> rootTags;
     
     for (int i = 0; i < n; i++) {
         
@@ -91,12 +92,6 @@ int main() {
             Tag* newTag = new Tag();
             newTag->name = m.str(1);
             
-            if(rootTag == nullptr) {
-                
-                //Set root tag of document.
-                rootTag = newTag;
-            }
-            
             if (currentFatherTag != nullptr) {
                 
                 currentFatherTag->children.push_back(newTag);
@@ -107,6 +102,7 @@ int main() {
             }
             
             currentFatherTag = newTag;
+
             
             regex_iterator<string::iterator> rit(currentLine.begin(), currentLine.end(), attributes);
             regex_iterator<string::iterator> rend;
@@ -127,23 +123,34 @@ int main() {
                 
                 rit++;
             }
+            
+            lastCreatedTag = newTag;
         } else {
             
             //closing tag.
-            if(currentFatherTag->father) {
+            if (lastCreatedTag && lastCreatedTag->father) {
                 
-                currentFatherTag = currentFatherTag->father;
+                currentFatherTag = lastCreatedTag->father;
+                lastCreatedTag = lastCreatedTag->father;
+            } else {
+             
+                if (currentFatherTag) {
+                    
+                    rootTags.push_back(currentFatherTag);
+                    currentFatherTag = nullptr;
+                }
             }
         }
     }
     
     string query;
-    Tag* tagToBeFound = rootTag;
+    Tag* tagToBeFound;
     
     for (int i = 0; i < q; i++) {
         
         cin >> query;
         
+        tagToBeFound = nullptr;
         vector<string> queryExploded = explode(query, '.');
         
         for (int h = 0; h < queryExploded.size(); h++) {
@@ -156,18 +163,29 @@ int main() {
                 string lastTag = lastQuery[0];
                 string attribute = lastQuery[1];
                 
-                if (h == 0 && rootTag->name != lastTag) {
+                if (h == 0) {
                     
-                    cout << "Not Found!" << endl;
-                    break;
+                    for (int i = 0; i < rootTags.size(); i++) {
+                        
+                        if (rootTags[i]->name == lastTag) {
+
+                            tagToBeFound = rootTags[i];
+                        }
+                    }
+                    
+                    if (tagToBeFound == nullptr) {
+                        
+                        cout << "Not Found!" << endl;
+                        break;
+                    }
                 }
                 
                 tagFound = nullptr;
                 visitChildren(tagToBeFound, lastTag);
-
-                if (h == 0 && rootTag->name == lastTag) {
+                
+                if (h == 0 && tagToBeFound->name == lastTag) {
                     
-                    tagFound = rootTag;
+                    tagFound = tagToBeFound;
                 }
                 
                 if (tagFound != nullptr) {
@@ -190,11 +208,16 @@ int main() {
                 
                 if (h == 0) {
                     
-                    if (rootTag->name == queryExploded[h]) {
-                        
-                        tagToBeFound = rootTag;
-                    } else {
-                        
+                    for (int i = 0; i < rootTags.size(); i++) {
+
+                        if (rootTags[i]->name == queryExploded[h]) {
+
+                            tagToBeFound = rootTags[i];
+                        }
+                    }
+                    
+                    if(tagToBeFound == nullptr) {
+                    
                         cout << "Not Found!" << endl;
                         break;
                     }
@@ -218,8 +241,3 @@ int main() {
     
     return 0;
 }
-
-//Not working (multiple root node).
-//https://hr-testcases-us-east-1.s3.amazonaws.com/15604/input04.txt?AWSAccessKeyId=AKIAJAMR4KJHHUS76CYQ&Expires=1474841404&Signature=RXJfi9S%2FULVSW4pEJOb6aOvh70M%3D&response-content-type=text%2Fplain
-//https://hr-testcases-us-east-1.s3.amazonaws.com/15604/output04.txt?AWSAccessKeyId=AKIAJAMR4KJHHUS76CYQ&Expires=1474841405&Signature=CS46gPJWmPkXByyZS8u5wtvIpLI%3D&response-content-type=text%2Fplain
-
