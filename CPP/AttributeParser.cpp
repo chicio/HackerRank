@@ -247,7 +247,6 @@ int main() {
                 }
             } else {
                 
-                //Find generic tag
                 findTag(h, tagToBeFound, rootTags, queryExploded[h]);
                 
                 if (tagToBeFound == nullptr) {

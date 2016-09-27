@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45CB94371D9947C200B968C0 /* AttributeParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FEF7D101D96F25E00E9A6B6 /* AttributeParser.cpp */; };
+		45EAAC5C1D9A97340037B8D1 /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +43,8 @@
 		45CB94351D9944B000B968C0 /* Day9Recursion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Recursion.swift; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
+		45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
+		45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
 		5F1A31351D689171003E6024 /* CPPClassTemplateSpecialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplateSpecialization.cpp; sourceTree = "<group>"; };
 		5F1A31371D6891B8003E6024 /* CPPClassTemplates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplates.cpp; sourceTree = "<group>"; };
 		5F1A313A1D68958B003E6024 /* AbstractClassesPolymorphism.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractClassesPolymorphism.cpp; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			children = (
 				5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */,
 				5F381CBD1D947B550023BA32 /* 2DArraysDS.cpp */,
+				45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				5FEF7D0E1D96E35800E9A6B6 /* Day7Arrays.swift */,
 				5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */,
 				45CB94351D9944B000B968C0 /* Day9Recursion.swift */,
+				45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -315,7 +319,7 @@
 		5FE2DB811D4D5ABD007CDFD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Fabrizio Duroni";
 				TargetAttributes = {
 					5FE2DB881D4D5ABD007CDFD2 = {
@@ -346,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CB94371D9947C200B968C0 /* AttributeParser.cpp in Sources */,
+				45EAAC5C1D9A97340037B8D1 /* DynamicArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,8 +371,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -411,8 +417,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -431,6 +439,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
