@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45EAAC5C1D9A97340037B8D1 /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */; };
+		455E93621D9BE7F000CADD96 /* DynamicArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +29,7 @@
 		45240F6C1D7EDE1D00A307E2 /* CorrectnessAndtheLoopInvariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CorrectnessAndtheLoopInvariant.cpp; sourceTree = "<group>"; };
 		45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfAlgorithms.cpp; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
+		455E93601D9BDCD000CADD96 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day112DArrays.swift; path = 30DaysOfCode/Day112DArrays.swift; sourceTree = SOURCE_ROOT; };
 		4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
 		4576A8111D93F79D0013A1B9 /* HackerRank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerRank-Bridging-Header.h"; sourceTree = "<group>"; };
 		45785E421D70658600CD4E42 /* MagicSpells.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicSpells.cpp; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 				5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */,
 				45CB94351D9944B000B968C0 /* Day9Recursion.swift */,
 				45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */,
+				455E93601D9BDCD000CADD96 /* Day112DArrays.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -350,7 +352,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45EAAC5C1D9A97340037B8D1 /* DynamicArray.cpp in Sources */,
+				455E93621D9BE7F000CADD96 /* DynamicArray.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

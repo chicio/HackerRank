@@ -8,7 +8,6 @@
 
 #include <vector>
 #include <iostream>
-#include <algorithm>
 
 using namespace std;
 
@@ -23,12 +22,6 @@ int main() {
     
     vector<vector<int>> seqList(n);
 
-//    for (int i = 0; i < n; i++) {
-//        
-//        //Create n list of n elements.
-//        seqList[i] = vector<int>();
-//    }
-    
     //queryType is the type of the query.
     //x is the first element of the query.
     //y is the second element of the query.
@@ -43,20 +36,21 @@ int main() {
         
         cin >> queryType >> x >> y;
 
+        //Common query part: find sequence.
         int seqListPosition = (x ^ lastAns) % n;
         
         if (queryType == 1) {
             
+            //Add elements.
             seqList[seqListPosition].push_back(y);
         }
         
         if (queryType == 2) {
-            
-            lastAns = seqList[seqListPosition][y] % seqList[seqListPosition].size();
+
+            //Get last results.
+            lastAns = seqList[seqListPosition][y % seqList[seqListPosition].size()];
             cout << lastAns << endl;
         }
-        
-        cout << seqList[seqListPosition].size() << endl;
     }
     
     return 0;
