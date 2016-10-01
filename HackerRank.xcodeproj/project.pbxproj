@@ -89,6 +89,7 @@
 		5FB60A501D679B10000F0B82 /* ExceptionalServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionalServer.cpp; sourceTree = "<group>"; };
 		5FB60A521D679C98000F0B82 /* AttendingWorkshops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttendingWorkshops.cpp; sourceTree = "<group>"; };
 		5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LisasWorkbook.cpp; sourceTree = "<group>"; };
+		5FCC77231D9FC29900B2E861 /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
 		5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AngryProfessor.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BiggerIsGreater.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE31D565A0E00A3296C /* CutTheSticks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CutTheSticks.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
@@ -163,6 +164,7 @@
 				455E93601D9BDCD000CADD96 /* Day112DArrays.swift */,
 				4515E9351D9D2FF2009AE531 /* Day12Inheritance.swift */,
 				5FAED7351D9F13C2006A84B7 /* Day13AbstractClasses.cpp */,
+				5FCC77231D9FC29900B2E861 /* Day14Scope.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
