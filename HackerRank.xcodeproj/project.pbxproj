@@ -30,6 +30,7 @@
 		4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
 		4576A8111D93F79D0013A1B9 /* HackerRank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerRank-Bridging-Header.h"; sourceTree = "<group>"; };
 		45785E421D70658600CD4E42 /* MagicSpells.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicSpells.cpp; sourceTree = "<group>"; };
+		457C50B01DA27E5F0036E9A3 /* Day16ExceptionsStringtoInteger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day16ExceptionsStringtoInteger.swift; sourceTree = "<group>"; };
 		458CA0D61D6F061800B2C918 /* InheritanceIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InheritanceIntroduction.cpp; sourceTree = "<group>"; };
 		458CA0D81D6F074400B2C918 /* RectangleArea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RectangleArea.cpp; sourceTree = "<group>"; };
 		458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLevelInheritance.cpp; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 				5FAED7351D9F13C2006A84B7 /* Day13AbstractClasses.cpp */,
 				5FCC77231D9FC29900B2E861 /* Day14Scope.swift */,
 				5FDDB3C11DA119E500C3C8C0 /* Day15LinkedList.swift */,
+				457C50B01DA27E5F0036E9A3 /* Day16ExceptionsStringtoInteger.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
