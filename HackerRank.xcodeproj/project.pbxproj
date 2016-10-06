@@ -127,6 +127,7 @@
 		5FFD62E41D7A13C400E5281B /* FindPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindPoint.cpp; sourceTree = "<group>"; };
 		5FFD62E61D7A145400E5281B /* Handshake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handshake.cpp; sourceTree = "<group>"; };
 		5FFD62E81D7A276B00E5281B /* SuperReducedString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperReducedString.cpp; sourceTree = "<group>"; };
+		5FFF9EE71DA5CA6900513DEE /* Day18QueuesandStacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day18QueuesandStacks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +172,7 @@
 				5FDDB3C11DA119E500C3C8C0 /* Day15LinkedList.swift */,
 				457C50B01DA27E5F0036E9A3 /* Day16ExceptionsStringtoInteger.swift */,
 				5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */,
+				5FFF9EE71DA5CA6900513DEE /* Day18QueuesandStacks.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
