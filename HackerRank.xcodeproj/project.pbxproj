@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		4595567D1DA668BF001768DA /* Day19Interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4595567C1DA668BF001768DA /* Day19Interfaces.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -129,6 +125,7 @@
 		5FEF7D101D96F25E00E9A6B6 /* AttributeParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttributeParser.cpp; sourceTree = "<group>"; };
 		5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart1.cpp; sourceTree = "<group>"; };
 		5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day17MoreExceptions.swift; path = 30DaysOfCode/Day17MoreExceptions.swift; sourceTree = SOURCE_ROOT; };
+		5FFC35EB1DA83B3700A4DB4A /* Day20Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20Sorting.swift; sourceTree = "<group>"; };
 		5FFD62E41D7A13C400E5281B /* FindPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindPoint.cpp; sourceTree = "<group>"; };
 		5FFD62E61D7A145400E5281B /* Handshake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handshake.cpp; sourceTree = "<group>"; };
 		5FFD62E81D7A276B00E5281B /* SuperReducedString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SuperReducedString.cpp; sourceTree = "<group>"; };
@@ -179,6 +176,7 @@
 				5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */,
 				5FFF9EE71DA5CA6900513DEE /* Day18QueuesandStacks.swift */,
 				4595567C1DA668BF001768DA /* Day19Interfaces.cpp */,
+				5FFC35EB1DA83B3700A4DB4A /* Day20Sorting.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -368,7 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4595567D1DA668BF001768DA /* Day19Interfaces.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

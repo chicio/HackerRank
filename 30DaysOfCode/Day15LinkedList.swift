@@ -47,7 +47,9 @@ func insert(head: Node!, data: Int!) -> Node {
 }
 
 func display(head: Node!) {
+    
     var current: Node! = head
+    
     while current != nil {
         print(current.data, terminator: " ")
         current = current.next
