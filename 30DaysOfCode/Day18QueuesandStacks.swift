@@ -3,13 +3,12 @@
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 06/10/2016.
-//  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
+//  https://www.hackerrank.com/challenges/30-queues-stacks
 
 import Foundation
 
 class Solution {
-    //Write your code here
     
     var stack = [Character]()
     var queue = [Character]()

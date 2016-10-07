@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4595567D1DA668BF001768DA /* Day19Interfaces.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4595567C1DA668BF001768DA /* Day19Interfaces.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -36,6 +40,7 @@
 		458CA0DA1D6F137900B2C918 /* MultiLevelInheritance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiLevelInheritance.cpp; sourceTree = "<group>"; };
 		458CA0DC1D6F14D800B2C918 /* AccessingInheritedFunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AccessingInheritedFunctions.cpp; sourceTree = "<group>"; };
 		459123F81D915C0F0044C589 /* Day3IntroToConditionalStatements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day3IntroToConditionalStatements.swift; sourceTree = "<group>"; };
+		4595567C1DA668BF001768DA /* Day19Interfaces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Day19Interfaces.cpp; path = 30DaysOfCode/Day19Interfaces.cpp; sourceTree = SOURCE_ROOT; };
 		45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuicksortInPlace.cpp; sourceTree = "<group>"; };
 		45A635DB1D8FFC1200E2AC94 /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day2Operators.swift; path = 30DaysOfCode/Day2Operators.swift; sourceTree = SOURCE_ROOT; };
 		45B113531D6F45BB009E082F /* DequeSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DequeSTL.cpp; sourceTree = "<group>"; };
@@ -173,6 +178,7 @@
 				457C50B01DA27E5F0036E9A3 /* Day16ExceptionsStringtoInteger.swift */,
 				5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */,
 				5FFF9EE71DA5CA6900513DEE /* Day18QueuesandStacks.swift */,
+				4595567C1DA668BF001768DA /* Day19Interfaces.cpp */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -362,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4595567D1DA668BF001768DA /* Day19Interfaces.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
