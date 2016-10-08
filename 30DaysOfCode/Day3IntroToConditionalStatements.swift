@@ -2,7 +2,7 @@
 //  Day3IntroToConditionalStatements.swift
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 20/09/16.
+//  Created by Fabrizio Duroni on 20/09/16.
 //
 //  https://www.hackerrank.com/challenges/30-conditional-statements
 

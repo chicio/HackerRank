@@ -2,7 +2,7 @@
 //  Day12Inheritance.swift
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 29/09/2016.
+//  Created by Fabrizio Duroni on 29/09/2016.
 //
 //  https://www.hackerrank.com/challenges/30-inheritance
 

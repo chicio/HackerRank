@@ -2,7 +2,7 @@
 //  Day16ExceptionsStringtoInteger.swift
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 03/10/2016.
+//  Created by Fabrizio Duroni on 03/10/2016.
 //
 //  https://www.hackerrank.com/challenges/30-exceptions-string-to-integer
 

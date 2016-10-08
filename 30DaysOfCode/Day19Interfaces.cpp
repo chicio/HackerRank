@@ -2,7 +2,7 @@
 //  Day19Interfaces.cpp
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 06/10/2016.
+//  Created by Fabrizio Duroni on 06/10/2016.
 //
 //  https://www.hackerrank.com/challenges/30-interfaces
 

@@ -2,7 +2,7 @@
 //  Day2Operators.swift
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 19/09/16.
+//  Created by Fabrizio Duroni on 19/09/16.
 //
 //  https://www.hackerrank.com/challenges/30-operators
 

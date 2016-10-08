@@ -2,7 +2,7 @@
 //  Day112DArrays.swift
 //  HackerRank
 //
-//  Created by Duroni Fabrizio on 28/09/2016.
+//  Created by Fabrizio Duroni on 28/09/2016.
 //
 //  https://www.hackerrank.com/challenges/30-2d-arrays
 
