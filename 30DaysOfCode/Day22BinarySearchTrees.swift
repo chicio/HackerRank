@@ -68,6 +68,7 @@ var tree = Tree()
 var t = Int(readLine()!)!
 
 while t > 0 {
+    
     root = tree.insert(root: root, data: Int(readLine()!)!)
     t = t - 1
 }

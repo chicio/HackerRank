@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5F7EC6DA1DAA7B5700D08C3D /* Day22BinarySearchTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F7EC6D91DAA7B5700D08C3D /* Day22BinarySearchTrees.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -97,6 +93,7 @@
 		5FB60A501D679B10000F0B82 /* ExceptionalServer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ExceptionalServer.cpp; sourceTree = "<group>"; };
 		5FB60A521D679C98000F0B82 /* AttendingWorkshops.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttendingWorkshops.cpp; sourceTree = "<group>"; };
 		5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LisasWorkbook.cpp; sourceTree = "<group>"; };
+		5FC9CF791DAC285600C566E4 /* Day23BSTLevelOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23BSTLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		5FCC77231D9FC29900B2E861 /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
 		5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AngryProfessor.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BiggerIsGreater.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
@@ -185,6 +182,7 @@
 				5FFC35EB1DA83B3700A4DB4A /* Day20Sorting.swift */,
 				5F7EC6D71DA91D0F00D08C3D /* Day21Generics.swift */,
 				5F7EC6D91DAA7B5700D08C3D /* Day22BinarySearchTrees.swift */,
+				5FC9CF791DAC285600C566E4 /* Day23BSTLevelOrderTraversal.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -374,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7EC6DA1DAA7B5700D08C3D /* Day22BinarySearchTrees.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
