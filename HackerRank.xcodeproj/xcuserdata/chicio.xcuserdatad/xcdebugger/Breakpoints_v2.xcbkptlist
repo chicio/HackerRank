@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "30DaysOfCode/main.swift"
-            timestampString = "497824943.336331"
+            timestampString = "497910347.911657"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "304"
-            endingLineNumber = "304">
+            startingLineNumber = "330"
+            endingLineNumber = "330">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -216,11 +216,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "30DaysofCode/main.swift"
-            timestampString = "497824943.336331"
+            timestampString = "497910347.911657"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "225"
-            endingLineNumber = "225">
+            startingLineNumber = "251"
+            endingLineNumber = "251">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -229,46 +229,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "30DaysofCode/main.swift"
-            timestampString = "497824989.274122"
+            filePath = "30DaysOfCode/main.swift"
+            timestampString = "497908735.511234"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "levelOrder(root:)"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "removeDuplicates(head:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HackerRank.Tree.levelOrder (root : Swift.Optional&lt;HackerRank.Node&gt;) -&gt; ()"
-                  moduleName = "HackerRank"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chicio/Documents/Lavoro/Programming/HackerRank/30DaysofCode/main.swift"
-                  timestampString = "497825297.309481"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "19">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "HackerRank.Tree.levelOrder (root : Swift.Optional&lt;HackerRank.Node&gt;) -&gt; ()"
-                  moduleName = "HackerRank"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/chicio/Documents/Lavoro/Programming/HackerRank/30DaysofCode/main.swift"
-                  timestampString = "497825297.311554"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
