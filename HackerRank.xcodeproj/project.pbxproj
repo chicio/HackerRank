@@ -19,6 +19,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		45125BD71DAE5281007F910F /* Day25RunningTimeandComplexity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day25RunningTimeandComplexity.swift; path = 30DaysOfCode/Day25RunningTimeandComplexity.swift; sourceTree = SOURCE_ROOT; };
 		4512BF4E1D6C6B9C00FECE1E /* LowerBoundSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerBoundSTL.cpp; sourceTree = "<group>"; };
 		4512BF501D6C77CF00FECE1E /* SetsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetsSTL.cpp; sourceTree = "<group>"; };
 		4513C66B1D6DF59A007641A2 /* PrintPretty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintPretty.cpp; sourceTree = "<group>"; };
@@ -185,6 +186,7 @@
 				5F7EC6D91DAA7B5700D08C3D /* Day22BinarySearchTrees.swift */,
 				5FC9CF791DAC285600C566E4 /* Day23BSTLevelOrderTraversal.swift */,
 				5FEA1E331DAD75A80060C887 /* Day24MoreLinkedLists.swift */,
+				45125BD71DAE5281007F910F /* Day25RunningTimeandComplexity.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
