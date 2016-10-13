@@ -24,7 +24,10 @@ func calculateFine(actualDate:[Int], expectedDate:[Int]) -> Int {
         } else {
             
             //Late month.
-            fine = 500 * (actualDate[1] - expectedDate[1])
+            if actualDate[2] >= expectedDate[2] {
+
+                fine = 500 * (actualDate[1] - expectedDate[1])
+            }
         }
     } else {
         
@@ -43,10 +46,6 @@ var expectedDate:[Int] = readLine()!.characters.split(separator: " ",
                                                       maxSplits: Int.max,
                                       omittingEmptySubsequences: true).map(String.init).map { Int($0)! }
 
-
 let fine:Int = calculateFine(actualDate: actualDate, expectedDate: expectedDate)
 
-
-
-
-
+print(fine)

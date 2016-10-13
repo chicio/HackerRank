@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		451384031DAFA9D000C842BE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451384021DAFA9D000C842BE /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -26,7 +22,7 @@
 		45125BD71DAE5281007F910F /* Day25RunningTimeandComplexity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day25RunningTimeandComplexity.swift; path = 30DaysOfCode/Day25RunningTimeandComplexity.swift; sourceTree = SOURCE_ROOT; };
 		4512BF4E1D6C6B9C00FECE1E /* LowerBoundSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerBoundSTL.cpp; sourceTree = "<group>"; };
 		4512BF501D6C77CF00FECE1E /* SetsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SetsSTL.cpp; sourceTree = "<group>"; };
-		451384021DAFA9D000C842BE /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = 30DaysOfCode/main.swift; sourceTree = SOURCE_ROOT; };
+		451384021DAFA9D000C842BE /* Day26NestedLogic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day26NestedLogic.swift; path = 30DaysOfCode/Day26NestedLogic.swift; sourceTree = SOURCE_ROOT; };
 		4513C66B1D6DF59A007641A2 /* PrintPretty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintPretty.cpp; sourceTree = "<group>"; };
 		4515E9351D9D2FF2009AE531 /* Day12Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12Inheritance.swift; sourceTree = "<group>"; };
 		45240F6C1D7EDE1D00A307E2 /* CorrectnessAndtheLoopInvariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CorrectnessAndtheLoopInvariant.cpp; sourceTree = "<group>"; };
@@ -192,7 +188,7 @@
 				5FC9CF791DAC285600C566E4 /* Day23BSTLevelOrderTraversal.swift */,
 				5FEA1E331DAD75A80060C887 /* Day24MoreLinkedLists.swift */,
 				45125BD71DAE5281007F910F /* Day25RunningTimeandComplexity.swift */,
-				451384021DAFA9D000C842BE /* main.swift */,
+				451384021DAFA9D000C842BE /* Day26NestedLogic.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
@@ -382,7 +378,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				451384031DAFA9D000C842BE /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
