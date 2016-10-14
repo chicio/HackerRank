@@ -45,6 +45,7 @@
 		45CB94351D9944B000B968C0 /* Day9Recursion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Recursion.swift; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
+		45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
 		45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
 		5F1A31351D689171003E6024 /* CPPClassTemplateSpecialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CPPClassTemplateSpecialization.cpp; sourceTree = "<group>"; };
@@ -189,6 +190,7 @@
 				5FEA1E331DAD75A80060C887 /* Day24MoreLinkedLists.swift */,
 				45125BD71DAE5281007F910F /* Day25RunningTimeandComplexity.swift */,
 				451384021DAFA9D000C842BE /* Day26NestedLogic.swift */,
+				45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
