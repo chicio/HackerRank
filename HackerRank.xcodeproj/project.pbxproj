@@ -73,6 +73,7 @@
 		5F3E789B1D95AE8D00F478F8 /* Day6LetsReview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day6LetsReview.swift; path = 30DaysOfCode/Day6LetsReview.swift; sourceTree = SOURCE_ROOT; };
 		5F3E789D1D95B25C00F478F8 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 		5F3E789E1D95B25C00F478F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5F424C351DB2592B0052705C /* Day28RegExPatternsandIntrotoDatabases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day28RegExPatternsandIntrotoDatabases.swift; path = 30DaysOfCode/Day28RegExPatternsandIntrotoDatabases.swift; sourceTree = SOURCE_ROOT; };
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
@@ -191,6 +192,7 @@
 				45125BD71DAE5281007F910F /* Day25RunningTimeandComplexity.swift */,
 				451384021DAFA9D000C842BE /* Day26NestedLogic.swift */,
 				45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */,
+				5F424C351DB2592B0052705C /* Day28RegExPatternsandIntrotoDatabases.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
