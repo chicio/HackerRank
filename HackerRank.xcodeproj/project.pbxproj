@@ -77,6 +77,7 @@
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
+		5F720D791DB3890C00F29D74 /* Day29BitwiseAND.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day29BitwiseAND.swift; path = 30DaysOfCode/Day29BitwiseAND.swift; sourceTree = SOURCE_ROOT; };
 		5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosetsNumber.cpp; sourceTree = "<group>"; };
 		5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day0HelloWorld.swift; path = 30DaysOfCode/Day0HelloWorld.swift; sourceTree = SOURCE_ROOT; };
 		5F7EC6D71DA91D0F00D08C3D /* Day21Generics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day21Generics.swift; sourceTree = "<group>"; };
@@ -193,6 +194,7 @@
 				451384021DAFA9D000C842BE /* Day26NestedLogic.swift */,
 				45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */,
 				5F424C351DB2592B0052705C /* Day28RegExPatternsandIntrotoDatabases.swift */,
+				5F720D791DB3890C00F29D74 /* Day29BitwiseAND.swift */,
 			);
 			name = 30DaysOfCode;
 			path = 30DaysofCode;
