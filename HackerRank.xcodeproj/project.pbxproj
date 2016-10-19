@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F295B031DB80CAE00ED401D /* LeftRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F295B021DB80CAE00ED401D /* LeftRotation.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -66,6 +70,7 @@
 		5F24E6271D8B63F1002EC132 /* CircularArrayRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircularArrayRotation.cpp; sourceTree = "<group>"; };
 		5F24E6291D8B647A002EC132 /* Kangaroo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kangaroo.cpp; sourceTree = "<group>"; };
 		5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort1.cpp; sourceTree = "<group>"; };
+		5F295B021DB80CAE00ED401D /* LeftRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeftRotation.cpp; sourceTree = "<group>"; };
 		5F381CB61D94717D0023BA32 /* PossiblePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PossiblePath.cpp; sourceTree = "<group>"; };
 		5F381CB91D947A2E0023BA32 /* ArraysIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysIntroduction.cpp; sourceTree = "<group>"; };
 		5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
@@ -158,6 +163,7 @@
 				5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */,
 				5F381CBD1D947B550023BA32 /* 2DArraysDS.cpp */,
 				45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */,
+				5F295B021DB80CAE00ED401D /* LeftRotation.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -384,6 +390,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F295B031DB80CAE00ED401D /* LeftRotation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
