@@ -7,6 +7,7 @@
 //  https://www.hackerrank.com/challenges/array-left-rotation
 
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
@@ -18,7 +19,7 @@ int main() {
     
     cin >> n >> r;
     
-    int array[n];
+    vector<int> array(n);
     int position;
     
     for (int i = 0; i < n; i++) {
