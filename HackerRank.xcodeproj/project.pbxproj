@@ -6,10 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5FCA37461DB95A0800C7F7E7 /* SparseArrays.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA37441DB955A300C7F7E7 /* SparseArrays.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -105,6 +101,7 @@
 		5FC29BBD1D57C0F4008EE87D /* LisasWorkbook.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LisasWorkbook.cpp; sourceTree = "<group>"; };
 		5FC9CF791DAC285600C566E4 /* Day23BSTLevelOrderTraversal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day23BSTLevelOrderTraversal.swift; sourceTree = "<group>"; };
 		5FCA37441DB955A300C7F7E7 /* SparseArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SparseArrays.cpp; sourceTree = "<group>"; };
+		5FCC574A1DBAAE4000F1594C /* PrintTheElementsOfaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTheElementsOfaLinkedList.cpp; sourceTree = "<group>"; };
 		5FCC77231D9FC29900B2E861 /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
 		5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AngryProfessor.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BiggerIsGreater.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
@@ -166,6 +163,7 @@
 				45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */,
 				5F295B021DB80CAE00ED401D /* LeftRotation.cpp */,
 				5FCA37441DB955A300C7F7E7 /* SparseArrays.cpp */,
+				5FCC574A1DBAAE4000F1594C /* PrintTheElementsOfaLinkedList.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -392,7 +390,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FCA37461DB95A0800C7F7E7 /* SparseArrays.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
