@@ -10,6 +10,11 @@
 
 using namespace std;
 
+/*!
+ C alike struct definition.
+ The attribute Node is be declared with struct
+ because in C, Node is not yet defined at this point.
+ */
 struct Node {
     
     int data;
@@ -20,7 +25,7 @@ void Print(Node *head) {
 
     Node *currentNode = head;
     
-    while (currentNode) {
+    while (currentNode != nullptr) {
         
         //Print current element.
         cout << currentNode->data << endl;
