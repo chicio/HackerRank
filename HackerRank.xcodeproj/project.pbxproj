@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5FEAA9721DBE426000A6EBB5 /* PrintInReverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAA9711DBE426000A6EBB5 /* PrintInReverse.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -137,6 +141,8 @@
 		5FDDB3C11DA119E500C3C8C0 /* Day15LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15LinkedList.swift; sourceTree = "<group>"; };
 		5FE2DB891D4D5ABD007CDFD2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FEA1E331DAD75A80060C887 /* Day24MoreLinkedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day24MoreLinkedLists.swift; path = 30DaysOfCode/Day24MoreLinkedLists.swift; sourceTree = SOURCE_ROOT; };
+		5FEAA9711DBE426000A6EBB5 /* PrintInReverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintInReverse.cpp; sourceTree = "<group>"; };
+		5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseaLinkedList.cpp; sourceTree = "<group>"; };
 		5FEF7D0E1D96E35800E9A6B6 /* Day7Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day7Arrays.swift; path = 30DaysOfCode/Day7Arrays.swift; sourceTree = SOURCE_ROOT; };
 		5FEF7D101D96F25E00E9A6B6 /* AttributeParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttributeParser.cpp; sourceTree = "<group>"; };
 		5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart1.cpp; sourceTree = "<group>"; };
@@ -172,6 +178,8 @@
 				5F1DBB121DBCDD9400DDEBFD /* InsertaNodeAtTheHeadOfaLinkedList.cpp */,
 				5F1DBB161DBCE5D400DDEBFD /* InsertaNodeAtaSpecificPositionInaLinkedList.cpp */,
 				5F1DBB181DBCE8F100DDEBFD /* DeleteaNode.cpp */,
+				5FEAA9711DBE426000A6EBB5 /* PrintInReverse.cpp */,
+				5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -398,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEAA9721DBE426000A6EBB5 /* PrintInReverse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
