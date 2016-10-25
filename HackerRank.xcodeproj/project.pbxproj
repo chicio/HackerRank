@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FEAA9721DBE426000A6EBB5 /* PrintInReverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FEAA9711DBE426000A6EBB5 /* PrintInReverse.cpp */; };
+		5F2E23F81DC01FFB001565D5 /* SortingBubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -75,6 +75,10 @@
 		5F24E6291D8B647A002EC132 /* Kangaroo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Kangaroo.cpp; sourceTree = "<group>"; };
 		5F24E62B1D8B6628002EC132 /* CountingSort1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort1.cpp; sourceTree = "<group>"; };
 		5F295B021DB80CAE00ED401D /* LeftRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeftRotation.cpp; sourceTree = "<group>"; };
+		5F2E23EF1DC00136001565D5 /* CompareTwoLinkedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompareTwoLinkedLists.cpp; sourceTree = "<group>"; };
+		5F2E23F11DC00D4C001565D5 /* MergeTwoSortedLinkedLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeTwoSortedLinkedLists.cpp; sourceTree = "<group>"; };
+		5F2E23F51DC01CB0001565D5 /* ArraysLeftRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysLeftRotation.cpp; sourceTree = "<group>"; };
+		5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingBubbleSort.cpp; sourceTree = "<group>"; };
 		5F381CB61D94717D0023BA32 /* PossiblePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PossiblePath.cpp; sourceTree = "<group>"; };
 		5F381CB91D947A2E0023BA32 /* ArraysIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysIntroduction.cpp; sourceTree = "<group>"; };
 		5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
@@ -165,6 +169,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F2E23F41DC01C89001565D5 /* CrackingTheCodingInterview */ = {
+			isa = PBXGroup;
+			children = (
+				5F2E23F51DC01CB0001565D5 /* ArraysLeftRotation.cpp */,
+				5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */,
+			);
+			path = CrackingTheCodingInterview;
+			sourceTree = SOURCE_ROOT;
+		};
 		5F381CB81D94795E0023BA32 /* DataStructures */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +193,8 @@
 				5F1DBB181DBCE8F100DDEBFD /* DeleteaNode.cpp */,
 				5FEAA9711DBE426000A6EBB5 /* PrintInReverse.cpp */,
 				5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */,
+				5F2E23EF1DC00136001565D5 /* CompareTwoLinkedLists.cpp */,
+				5F2E23F11DC00D4C001565D5 /* MergeTwoSortedLinkedLists.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -336,6 +351,7 @@
 				5FD07CE01D565A0E00A3296C /* Algorithms */,
 				5FD07CED1D565A0E00A3296C /* CPP */,
 				5F381CB81D94795E0023BA32 /* DataStructures */,
+				5F2E23F41DC01C89001565D5 /* CrackingTheCodingInterview */,
 				5FB60A491D6798C5000F0B82 /* Mathematics */,
 				5FE2DB8A1D4D5ABD007CDFD2 /* Products */,
 			);
@@ -406,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FEAA9721DBE426000A6EBB5 /* PrintInReverse.cpp in Sources */,
+				5F2E23F81DC01FFB001565D5 /* SortingBubbleSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
