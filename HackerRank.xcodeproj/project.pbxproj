@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F2E23F81DC01FFB001565D5 /* SortingBubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */; };
+		45D07BAD1DC0C5750048584F /* StringsMakingAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +49,7 @@
 		45CB94351D9944B000B968C0 /* Day9Recursion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Recursion.swift; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
+		45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringsMakingAnagrams.cpp; sourceTree = "<group>"; };
 		45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
 		45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
@@ -174,6 +175,7 @@
 			children = (
 				5F2E23F51DC01CB0001565D5 /* ArraysLeftRotation.cpp */,
 				5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */,
+				45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -422,7 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F2E23F81DC01FFB001565D5 /* SortingBubbleSort.cpp in Sources */,
+				45D07BAD1DC0C5750048584F /* StringsMakingAnagrams.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
