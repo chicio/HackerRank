@@ -50,6 +50,23 @@ public:
         
         currentNode->next = newNode;
     }
+    
+    Node<T>* get(T data) {
+        
+        Node<T>* currentNode = head;
+        
+        while (currentNode != nullptr) {
+            
+            if (currentNode->data == data) {
+                
+                break;
+            }
+            
+            currentNode = currentNode->next;
+        }
+        
+        return currentNode;
+    }
 };
 
 template <typename T>
