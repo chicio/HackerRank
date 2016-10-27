@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FFA52BC1DC1788300B1DDEF /* SortingComparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */; };
+		456E2FF51DC223B90040F4E5 /* HashTablesRansomNote.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,7 @@
 		45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfAlgorithms.cpp; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
 		455E93601D9BDCD000CADD96 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day112DArrays.swift; path = 30DaysOfCode/Day112DArrays.swift; sourceTree = SOURCE_ROOT; };
+		456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTablesRansomNote.cpp; sourceTree = "<group>"; };
 		4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
 		4576A8111D93F79D0013A1B9 /* HackerRank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HackerRank-Bridging-Header.h"; sourceTree = "<group>"; };
 		45785E421D70658600CD4E42 /* MagicSpells.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MagicSpells.cpp; sourceTree = "<group>"; };
@@ -178,6 +179,7 @@
 				5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */,
 				45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */,
 				5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */,
+				456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -426,7 +428,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FFA52BC1DC1788300B1DDEF /* SortingComparator.cpp in Sources */,
+				456E2FF51DC223B90040F4E5 /* HashTablesRansomNote.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
