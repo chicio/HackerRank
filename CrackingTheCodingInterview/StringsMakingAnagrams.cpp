@@ -8,86 +8,53 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+
+const char firstLetterOfAlphabetASCII = 'a';
 
 using namespace std;
 
+/*!
+ Calculate the number of delete needed to 
+ transform to strings anagrams.
+ 
+ @param a first string that we want to transform in anagrams.
+ @param b second string that we want to transform in anagrams.
+ 
+ @returns number of deletion needed to transform the two string in an anagrams.
+ */
 int numberNeeded(string a, string b) {
-    
-//    int totalErase = 0;
-//    string* maxLengthString;
-//    string* minLengthString;
-//    
-//    if (a.length() > b.length()) {
-//        
-//        maxLengthString = &a;
-//        minLengthString = &b;
-//    } else {
-//
-//        maxLengthString = &b;
-//        minLengthString = &a;
-//    }
-//    
-//    
-//    for (int i = 0; i < maxLengthString->length(); i++) {
-//        
-//        bool found = false;
-//        
-//        for (int k = 0; k < minLengthString->length(); k++) {
-//            
-//            if (maxLengthString[i] == minLengthString[k]) {
-//                
-//                found = true;
-//            }
-//        }
-//        
-//        if (!found) {
-//            
-//            maxLengthString->erase();
-//        }
-//    }
-//    
-    
-    int totalErase = 0;
+
+    //These vectors will contain the number of times a letter appear in string.
+    vector<int> lettersCountA(26);
+    vector<int> lettersCountB(26);
     
     for (int i = 0; i < a.length(); i++) {
         
-        bool found = false;
-        
-        for (int k = 0; k < b.length(); k++) {
-            
-            if (a[i] != b[k]) {
-                
-                found = true;
-            }
-        }
-        
-        if (!found) {
-            
-            a.erase(i, 1);
-            totalErase++;
-        }
+        //Use current string char as position in the lettersCountA vectors.
+        //NB.: subtract 'a' to use current char as 0 based index in letterCountA vectors
+        lettersCountA[a[i] - firstLetterOfAlphabetASCII]++;
     }
     
-    for (int i = 0; i < b.length(); i++) {
-        
-        bool found = false;
-        
-        for (int k = 0; k < a.length(); k++) {
-            
-            if (b[i] != a[k]) {
-                
-                found = true;
-            }
-        }
-        
-        if (!found) {
-            
-            b.erase(i, 1);
-            totalErase++;
-        }
-    }
+    for (int i  = 0; i < b.length(); i++) {
 
-    return totalErase;
+        //Use current string char as position in the lettersCountB vectors.
+        //NB.: subtract 'a' to use current char as 0 based index in letterCountB vectors
+        lettersCountB[b[i] - firstLetterOfAlphabetASCII]++;
+    }
+    
+    int numberOfDelete = 0;
+    
+    for (int i = 0; i < 26; i++) {
+        
+        //The absolute value of the difference between the count of appearence of
+        //a letter inside the two string gives us the number of delete to be applied to
+        //the two strings to obtain an anagram. Sum them to obtain the
+        //total number of delete.
+        numberOfDelete += abs(lettersCountA[i] - lettersCountB[i]);
+    }
+    
+    return numberOfDelete;
 }
 
 int main() {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45D07BAD1DC0C5750048584F /* StringsMakingAnagrams.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */; };
+		5FFA52BC1DC1788300B1DDEF /* SortingComparator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -152,6 +152,7 @@
 		5FEF7D101D96F25E00E9A6B6 /* AttributeParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttributeParser.cpp; sourceTree = "<group>"; };
 		5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart1.cpp; sourceTree = "<group>"; };
 		5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day17MoreExceptions.swift; path = 30DaysOfCode/Day17MoreExceptions.swift; sourceTree = SOURCE_ROOT; };
+		5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingComparator.cpp; sourceTree = "<group>"; };
 		5FFC35EB1DA83B3700A4DB4A /* Day20Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20Sorting.swift; sourceTree = "<group>"; };
 		5FFD62E41D7A13C400E5281B /* FindPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindPoint.cpp; sourceTree = "<group>"; };
 		5FFD62E61D7A145400E5281B /* Handshake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handshake.cpp; sourceTree = "<group>"; };
@@ -176,6 +177,7 @@
 				5F2E23F51DC01CB0001565D5 /* ArraysLeftRotation.cpp */,
 				5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */,
 				45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */,
+				5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -424,7 +426,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D07BAD1DC0C5750048584F /* StringsMakingAnagrams.cpp in Sources */,
+				5FFA52BC1DC1788300B1DDEF /* SortingComparator.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
