@@ -18,7 +18,7 @@ using namespace std;
  using templates (that i could reuse on other challenges
  on hackerrank and in the "real programming life" if needed).
  
- NB.: use unordered_map if love simple life :).
+ NB.: use unordered_map if you love simple life :).
  */
 
 /*!

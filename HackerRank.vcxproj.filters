@@ -13,14 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
     </Filter>
+    <Filter Include="Source Files\Mathematics">
+      <UniqueIdentifier>{357bca07-7d2b-40f9-bf15-506fd21eca39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\30DaysOfCode">
+      <UniqueIdentifier>{66e2491c-865c-4797-9357-b19ab80302bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CrackingTheCodingInterview">
+      <UniqueIdentifier>{31aa3183-b8a1-43db-898e-eb9f24d76aa2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="30daysofcode\Day13AbstractClasses.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="30daysofcode\Day19Interfaces.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="algorithms\AbsolutePermutation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -258,21 +261,6 @@
     <ClCompile Include="cpp\VirtualFunctions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="crackingthecodinginterview\ArraysLeftRotation.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crackingthecodinginterview\HashTablesRansomNote.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crackingthecodinginterview\SortingBubbleSort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crackingthecodinginterview\SortingComparator.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="crackingthecodinginterview\StringsMakingAnagrams.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="datastructures\2DArraysDS.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -316,16 +304,37 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="mathematics\FindPoint.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Mathematics</Filter>
     </ClCompile>
     <ClCompile Include="mathematics\Handshake.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Mathematics</Filter>
     </ClCompile>
     <ClCompile Include="mathematics\MaximumDraws.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Mathematics</Filter>
     </ClCompile>
     <ClCompile Include="mathematics\PossiblePath.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Mathematics</Filter>
+    </ClCompile>
+    <ClCompile Include="30daysofcode\Day13AbstractClasses.cpp">
+      <Filter>Source Files\30DaysOfCode</Filter>
+    </ClCompile>
+    <ClCompile Include="30daysofcode\Day19Interfaces.cpp">
+      <Filter>Source Files\30DaysOfCode</Filter>
+    </ClCompile>
+    <ClCompile Include="crackingthecodinginterview\ArraysLeftRotation.cpp">
+      <Filter>Source Files\CrackingTheCodingInterview</Filter>
+    </ClCompile>
+    <ClCompile Include="crackingthecodinginterview\HashTablesRansomNote.cpp">
+      <Filter>Source Files\CrackingTheCodingInterview</Filter>
+    </ClCompile>
+    <ClCompile Include="crackingthecodinginterview\SortingBubbleSort.cpp">
+      <Filter>Source Files\CrackingTheCodingInterview</Filter>
+    </ClCompile>
+    <ClCompile Include="crackingthecodinginterview\SortingComparator.cpp">
+      <Filter>Source Files\CrackingTheCodingInterview</Filter>
+    </ClCompile>
+    <ClCompile Include="crackingthecodinginterview\StringsMakingAnagrams.cpp">
+      <Filter>Source Files\CrackingTheCodingInterview</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
