@@ -327,9 +327,6 @@
     <ClCompile Include="mathematics\PossiblePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="test\Source1.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HackerRank-Bridging-Header.h">
