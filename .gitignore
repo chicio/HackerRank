@@ -5,6 +5,7 @@
 ### Eclipse ###
 .metadata/
 Java/*.class
+.recommenders/*
 .recommenders/
 
 ### VisualStudio ###
