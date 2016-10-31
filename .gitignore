@@ -5,7 +5,7 @@
 ### Eclipse ###
 .metadata/
 Java/*.class
-
+.recommenders/
 
 ### VisualStudio ###
 ## Ignore Visual Studio temporary files, build results, and

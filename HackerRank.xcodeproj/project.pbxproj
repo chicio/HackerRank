@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5F435C921DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F435C911DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp */; };
+		5FE7E7F01DC7B8A000049A4E /* GetNodeValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FE7E7EF1DC7B8A000049A4E /* GetNodeValue.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -147,6 +148,7 @@
 		5FDBAF811D8626AA000F0690 /* Quicksort2Sorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort2Sorting.cpp; sourceTree = "<group>"; };
 		5FDDB3C11DA119E500C3C8C0 /* Day15LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15LinkedList.swift; sourceTree = "<group>"; };
 		5FE2DB891D4D5ABD007CDFD2 /* HackerRank */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HackerRank; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FE7E7EF1DC7B8A000049A4E /* GetNodeValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetNodeValue.cpp; sourceTree = "<group>"; };
 		5FEA1E331DAD75A80060C887 /* Day24MoreLinkedLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day24MoreLinkedLists.swift; path = 30DaysOfCode/Day24MoreLinkedLists.swift; sourceTree = SOURCE_ROOT; };
 		5FEAA9711DBE426000A6EBB5 /* PrintInReverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintInReverse.cpp; sourceTree = "<group>"; };
 		5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseaLinkedList.cpp; sourceTree = "<group>"; };
@@ -203,6 +205,7 @@
 				5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */,
 				5F2E23EF1DC00136001565D5 /* CompareTwoLinkedLists.cpp */,
 				5F2E23F11DC00D4C001565D5 /* MergeTwoSortedLinkedLists.cpp */,
+				5FE7E7EF1DC7B8A000049A4E /* GetNodeValue.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE7E7F01DC7B8A000049A4E /* GetNodeValue.cpp in Sources */,
 				5F435C921DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
