@@ -9,6 +9,7 @@ You can find my progress on my <a href="https://www.hackerrank.com/chicio">Hacke
 Programming Languages:
 * C++
 * Swift
+* Objective-C
 * Java
 * Haskell
 

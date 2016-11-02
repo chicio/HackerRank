@@ -6,11 +6,6 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		5F435C921DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F435C911DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp */; };
-		5F83EA761DC9089200AC0E00 /* LinkedListsDetectaCycle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F83EA751DC9089200AC0E00 /* LinkedListsDetectaCycle.cpp */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -32,6 +27,7 @@
 		4515E9351D9D2FF2009AE531 /* Day12Inheritance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day12Inheritance.swift; sourceTree = "<group>"; };
 		45240F6C1D7EDE1D00A307E2 /* CorrectnessAndtheLoopInvariant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CorrectnessAndtheLoopInvariant.cpp; sourceTree = "<group>"; };
 		45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfAlgorithms.cpp; sourceTree = "<group>"; };
+		4525BE9E1DCA0E3800CF61D4 /* StacksBalancedBrackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StacksBalancedBrackets.m; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
 		455E93601D9BDCD000CADD96 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day112DArrays.swift; path = 30DaysOfCode/Day112DArrays.swift; sourceTree = SOURCE_ROOT; };
 		456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTablesRansomNote.cpp; sourceTree = "<group>"; };
@@ -185,6 +181,7 @@
 				456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */,
 				5F435C911DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp */,
 				5F83EA751DC9089200AC0E00 /* LinkedListsDetectaCycle.cpp */,
+				4525BE9E1DCA0E3800CF61D4 /* StacksBalancedBrackets.m */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -433,8 +430,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F83EA761DC9089200AC0E00 /* LinkedListsDetectaCycle.cpp in Sources */,
-				5F435C921DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
