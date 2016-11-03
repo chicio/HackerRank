@@ -6,6 +6,10 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5FF469161DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF469151DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		5FE2DB871D4D5ABD007CDFD2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -59,6 +63,7 @@
 		5F1DBB121DBCDD9400DDEBFD /* InsertaNodeAtTheHeadOfaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertaNodeAtTheHeadOfaLinkedList.cpp; sourceTree = "<group>"; };
 		5F1DBB161DBCE5D400DDEBFD /* InsertaNodeAtaSpecificPositionInaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertaNodeAtaSpecificPositionInaLinkedList.cpp; sourceTree = "<group>"; };
 		5F1DBB181DBCE8F100DDEBFD /* DeleteaNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteaNode.cpp; sourceTree = "<group>"; };
+		5F1F147F1DCAB44500745D58 /* QueuesATaleofTwoStacks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueuesATaleofTwoStacks.m; sourceTree = "<group>"; };
 		5F2011E21D8ED0340001FE86 /* Day1DataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day1DataTypes.swift; path = 30DaysOfCode/Day1DataTypes.swift; sourceTree = SOURCE_ROOT; };
 		5F2011E41D8ED34B0001FE86 /* FindtheMedian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindtheMedian.cpp; sourceTree = "<group>"; };
 		5F24E6151D8B5F5F002EC132 /* RunningTimeOfQuicksort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfQuicksort.cpp; sourceTree = "<group>"; };
@@ -150,6 +155,7 @@
 		5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseaLinkedList.cpp; sourceTree = "<group>"; };
 		5FEF7D0E1D96E35800E9A6B6 /* Day7Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day7Arrays.swift; path = 30DaysOfCode/Day7Arrays.swift; sourceTree = SOURCE_ROOT; };
 		5FEF7D101D96F25E00E9A6B6 /* AttributeParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AttributeParser.cpp; sourceTree = "<group>"; };
+		5FF469151DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeapsFindTheRunningMedian.m; sourceTree = "<group>"; };
 		5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart1.cpp; sourceTree = "<group>"; };
 		5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day17MoreExceptions.swift; path = 30DaysOfCode/Day17MoreExceptions.swift; sourceTree = SOURCE_ROOT; };
 		5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingComparator.cpp; sourceTree = "<group>"; };
@@ -182,6 +188,8 @@
 				5F435C911DC3DCD000BE54F3 /* MergeSortCountingInversions.cpp */,
 				5F83EA751DC9089200AC0E00 /* LinkedListsDetectaCycle.cpp */,
 				4525BE9E1DCA0E3800CF61D4 /* StacksBalancedBrackets.m */,
+				5F1F147F1DCAB44500745D58 /* QueuesATaleofTwoStacks.m */,
+				5FF469151DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -430,6 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FF469161DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

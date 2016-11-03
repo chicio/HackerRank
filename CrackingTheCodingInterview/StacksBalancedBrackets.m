@@ -3,27 +3,33 @@
 //  HackerRank
 //
 //  Created by Duroni Fabrizio on 02/11/2016.
-//  Copyright © 2016 Fabrizio Duroni. All rights reserved.
 //
+//  https://www.hackerrank.com/challenges/ctci-balanced-brackets
 
 #import <Foundation/Foundation.h>
 
-/// Stack definition.
+//******** Stack definition ********//
 
-/*!
- Stack objective-c implementation.
- */
+//Public interface.
 @interface Stack : NSObject
 
-@property (nonatomic, strong) NSMutableArray *stackArray;
-
 - (instancetype)init;
-- (void)pushObject:(id)object;
-- (id)popObject;
+- (void)push:(id)object;
+- (id)pop;
 - (BOOL)isEmpty;
+- (id)peek;
 
 @end
 
+//Private interface.
+@interface Stack ()
+
+/// Array data structure used as stack.
+@property (nonatomic, strong) NSMutableArray *stackArray;
+
+@end
+
+//Implementation.
 @implementation Stack
 
 - (instancetype)init {
@@ -38,19 +44,19 @@
     return self;
 }
 
-- (void)pushObject:(id)object {
+- (void)push:(id)object {
     
     [self.stackArray addObject:object];
 }
 
-- (id)popObject {
+- (id)pop {
     
     if ([self isEmpty] == YES) {
         
         return nil;
     }
     
-    id lastObject = [self.stackArray objectAtIndex: self.stackArray.count - 1];
+    id lastObject = [self.stackArray lastObject];
     [self.stackArray removeLastObject];
     
     return lastObject;
@@ -61,7 +67,17 @@
     return self.stackArray.count == 0;
 }
 
+- (id)peek {
+    
+    id lastObject = [self.stackArray lastObject];
+    
+    return lastObject;
+}
+
 @end
+
+
+//******** Main ********//
 
 int main(int argc, const char * argv[]){
     
@@ -89,10 +105,10 @@ int main(int argc, const char * argv[]){
                     [currentParenthesis isEqualToString:@"["] ||
                     [currentParenthesis isEqualToString:@"("]) {
                     
-                    [stackParenthesis pushObject:currentParenthesis];
+                    [stackParenthesis push:currentParenthesis];
                 } else {
                     
-                    NSString *lastParenthesis =  [stackParenthesis popObject];
+                    NSString *lastParenthesis =  [stackParenthesis pop];
                     
                     if (lastParenthesis == nil) {
                         
