@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5F8562D81DCC043900CFEDFA /* BinarySearchIceCreamParlor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8562D71DCC043900CFEDFA /* BinarySearchIceCreamParlor.m */; };
-		5FF469161DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF469151DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -441,7 +440,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF469161DCACB70001F1EA5 /* HeapsFindTheRunningMedian.m in Sources */,
 				5F8562D81DCC043900CFEDFA /* BinarySearchIceCreamParlor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
