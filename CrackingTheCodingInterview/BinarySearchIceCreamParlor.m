@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 //******** Binary Search definition ********//
+//Implemented as exercise.
 
 //Public interface
 @interface BinarySearch : NSObject
@@ -82,15 +83,57 @@
 
 - (NSComparisonResult)compare:(IceCream *)otherIceCream {
     
-    if (self.price > otherIceCream.price) {
+    if (self.price < otherIceCream.price) {
         
         return NSOrderedAscending;
-    } else if (self.price < otherIceCream.price) {
+    } else if (self.price > otherIceCream.price) {
         
         return NSOrderedDescending;
     } else {
         
         return NSOrderedSame;
+    }
+}
+
+/*!
+ Honestly, I searched for inspiration.....
+ 
+ @see http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/
+ */
++ (void)modifiedSearch:(NSArray *)array sum:(int)sumToBeFound {
+    
+    int leftIndex = 0;
+    int rightIndex = (int)array.count - 1;
+    
+    IceCream *icOne;
+    IceCream *icTwo;
+    
+    int currentSum = 0;
+    
+    while (leftIndex < rightIndex) {
+        
+        icOne = array[leftIndex];
+        icTwo = array[rightIndex];
+        currentSum = icOne.price + icTwo.price;
+        
+        if (currentSum == sumToBeFound) {
+            
+            if (icOne.identifier > icTwo.identifier) {
+                
+                printf("%d %d\n", icTwo.identifier, icOne.identifier);
+            } else {
+                
+                printf("%d %d\n", icOne.identifier, icTwo.identifier);
+            }
+            
+            break;
+        } else if (currentSum > sumToBeFound) {
+            
+            rightIndex--;
+        } else {
+            
+            leftIndex++;
+        }
     }
 }
 
@@ -109,9 +152,9 @@ int main(int argc, const char * argv[]) {
         for(int a0 = 0; a0 < t; a0++) {
             
             int m;
-            scanf("%i",&m);
-            
             int n;
+            
+            scanf("%i",&m);
             scanf("%i",&n);
             
             int currentNumber;
@@ -122,7 +165,7 @@ int main(int argc, const char * argv[]) {
                 scanf("%d", &currentNumber);
                 
                 IceCream *iceCream = [[IceCream alloc] init];
-                iceCream.identifier = a_i;
+                iceCream.identifier = a_i + 1;
                 iceCream.price = currentNumber;
                 
                 [a addObject:iceCream];
@@ -134,8 +177,8 @@ int main(int argc, const char * argv[]) {
                 return [a compare:b];
             }];
             
-            BOOL test = [BinarySearch binarySearch:a element:[NSNumber numberWithInt:5]];
-            NSLog(@"%d", test);
+            //Search sum.
+            [IceCream modifiedSearch:a sum:m];
         }
     }
     
