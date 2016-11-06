@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F4A5C5E1DCE06AC0040DC08 /* RecursionDavisStaircase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A5C5D1DCE06AC0040DC08 /* RecursionDavisStaircase.m */; };
-		5F4A5C601DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F4A5C5F1DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp */; };
+		5F6AC9D01DCF6C6B00BA9774 /* TriesContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +98,7 @@
 		5F4A5C5D1DCE06AC0040DC08 /* RecursionDavisStaircase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecursionDavisStaircase.m; sourceTree = "<group>"; };
 		5F4A5C5F1DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreesIsThisaBinarySearchTree.cpp; sourceTree = "<group>"; };
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
+		5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriesContacts.m; sourceTree = "<group>"; };
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
 		5F720D791DB3890C00F29D74 /* Day29BitwiseAND.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day29BitwiseAND.swift; path = 30DaysOfCode/Day29BitwiseAND.swift; sourceTree = SOURCE_ROOT; };
@@ -203,6 +203,7 @@
 				5F4A5C5B1DCDF4F70040DC08 /* RecursionFibonacciNumbers.cpp */,
 				5F4A5C5D1DCE06AC0040DC08 /* RecursionDavisStaircase.m */,
 				5F4A5C5F1DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp */,
+				5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -451,8 +452,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4A5C601DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp in Sources */,
-				5F4A5C5E1DCE06AC0040DC08 /* RecursionDavisStaircase.m in Sources */,
+				5F6AC9D01DCF6C6B00BA9774 /* TriesContacts.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
