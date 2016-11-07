@@ -14,18 +14,22 @@
 #define CHAR_TO_INDEX(c) ((int)c - (int)'a')
 
 typedef struct TrieNode {
-  
+    
+    /// Children of node.
     struct TrieNode *children[ALPHABET_SIZE];
+    /// Check if node is the last letter of a complete word.
     bool isCompleteWord;
-    unichar letter;
+    /// NOT STANDARD: field to store the count of words from the current node. Updated in place on insert.
+    int countOfWordsFromNode;
 } TrieNode;
 
 TrieNode *createNode() {
-
+    
     TrieNode *newNode = (TrieNode *)malloc(sizeof(TrieNode));
     
     if (newNode) {
         
+        newNode->countOfWordsFromNode = 0;
         newNode->isCompleteWord = false;
         
         //Clear children array.
@@ -53,11 +57,9 @@ TrieNode *createNode() {
 
 //Private interface
 @interface Trie () {
-
+    
     TrieNode *root;
 }
-
-- (int)countWords:(TrieNode *)node;
 
 @end
 
@@ -69,19 +71,21 @@ TrieNode *createNode() {
     self = [super init];
     
     if (self) {
-
+        
         //Init root.
         root = createNode();
     }
     
     return self;
 }
-    
+
 - (void)insert:(NSString *)word {
     
     int index = 0;
+    bool newWord = false;
     
     TrieNode *currentNode = root;
+    TrieNode *nodeArray[word.length];
     
     for (int i = 0; i < word.length; i++) {
         
@@ -90,23 +94,34 @@ TrieNode *createNode() {
         if (!currentNode->children[index]) {
             
             currentNode->children[index] = createNode();
-            currentNode->children[index]->letter = [word characterAtIndex:i];
+            newWord = true;
         }
         
         currentNode = currentNode->children[index];
+        nodeArray[i] = currentNode;
+    }
+    
+    //If a new word has been inserted update add 1 to the count
+    //of word for each node on the path.
+    if (newWord == true) {
+        
+        for (int i = 0; i < word.length; i++) {
+            
+            nodeArray[i]->countOfWordsFromNode++;
+        }
     }
     
     currentNode->isCompleteWord = true;
 }
 
 - (bool)searchWord:(NSString *)word {
-
+    
     int index;
     
     TrieNode *currentNode = root;
     
     for (int i = 0; i < word.length; i++) {
-     
+        
         index = CHAR_TO_INDEX([word characterAtIndex:i]);
         
         if (currentNode->children[index] == NULL) {
@@ -121,7 +136,7 @@ TrieNode *createNode() {
 }
 
 - (int)countWordsForPartial:(NSString *)word {
- 
+    
     int index;
     
     TrieNode *currentNode = root;
@@ -137,30 +152,12 @@ TrieNode *createNode() {
         
         currentNode = currentNode->children[index];
     }
-
-    int countOfWords = [self countWords:currentNode];
     
-    return countOfWords;
-}
-
-- (int)countWords:(TrieNode *)node {
-    
-    int sum = 0;
-
-    if (node->isCompleteWord) {
-     
-        sum = 1;
-    }
-    
-    for (int i = 0; i < ALPHABET_SIZE; i++) {
-        
-        if (node->children[i]) {
-            
-            sum = sum + [self countWords:node->children[i]];
-        }
-    }
-    
-    return sum;
+    //After getting the last node of the partial path
+    //return its count. In this way we have a search
+    //that is O(n), with n the number of char in the
+    //partial path.
+    return currentNode->countOfWordsFromNode;
 }
 
 @end
@@ -170,7 +167,7 @@ TrieNode *createNode() {
 
 int main(int argc, const char * argv[]) {
     
-    @autoreleasepool{
+    @autoreleasepool {
         
         int n;
         scanf("%i", &n);
