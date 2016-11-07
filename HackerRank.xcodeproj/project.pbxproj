@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F6AC9D01DCF6C6B00BA9774 /* TriesContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */; };
+		5F363D7D1DD13FA6008C3DF9 /* DPCoinChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F363D7C1DD13FA6008C3DF9 /* DPCoinChange.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +85,7 @@
 		5F2E23F71DC01FFB001565D5 /* SortingBubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingBubbleSort.cpp; sourceTree = "<group>"; };
 		5F3469101DCD29DA004B6535 /* TimeComplexityPrimality.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeComplexityPrimality.m; sourceTree = "<group>"; };
 		5F3469121DCD30E9004B6535 /* BitManipulationLonelyInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitManipulationLonelyInteger.m; sourceTree = "<group>"; };
+		5F363D7C1DD13FA6008C3DF9 /* DPCoinChange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DPCoinChange.cpp; sourceTree = "<group>"; };
 		5F381CB61D94717D0023BA32 /* PossiblePath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PossiblePath.cpp; sourceTree = "<group>"; };
 		5F381CB91D947A2E0023BA32 /* ArraysIntroduction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysIntroduction.cpp; sourceTree = "<group>"; };
 		5F381CBB1D947A6A0023BA32 /* ArraysDS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ArraysDS.cpp; sourceTree = "<group>"; };
@@ -204,6 +205,7 @@
 				5F4A5C5D1DCE06AC0040DC08 /* RecursionDavisStaircase.m */,
 				5F4A5C5F1DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp */,
 				5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */,
+				5F363D7C1DD13FA6008C3DF9 /* DPCoinChange.cpp */,
 			);
 			path = CrackingTheCodingInterview;
 			sourceTree = SOURCE_ROOT;
@@ -452,7 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F6AC9D01DCF6C6B00BA9774 /* TriesContacts.m in Sources */,
+				5F363D7D1DD13FA6008C3DF9 /* DPCoinChange.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
