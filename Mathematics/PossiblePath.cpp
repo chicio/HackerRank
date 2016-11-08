@@ -15,6 +15,7 @@ using namespace std;
  between two numbers.
  
  @see https://en.wikipedia.org/wiki/Euclidean_algorithm#Implementations
+ @see http://www.robertobigoni.it/Matematica/euclide/euclide.html
  
  @param a first number.
  @param b second number.

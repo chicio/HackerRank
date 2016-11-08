@@ -128,7 +128,7 @@ int main() {
     
     int edgesToRemove = 0;
     
-    //Count number of edges that can remove from the tree
+    //Count number of edges that can be removed from the tree
     //to get a forest such that each connected component of
     //the forest contains an even number of vertices.
     for (int i = 1; i <= n; i++) {
