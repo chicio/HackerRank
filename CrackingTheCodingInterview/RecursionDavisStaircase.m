@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 /*!
- This problem is ana example of the use 
+ This problem is an example of the use 
  of memoization: cache previous result values
  in a recursive problem to be reused later
  (avoid duplicated calculation).
