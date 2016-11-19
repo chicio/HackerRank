@@ -59,7 +59,7 @@ int main(){
     vector<int> h2(n2);
     stacksSum[1] = 0;
     
-    for(int h2_i = n2 - 1; h2_i >= 0; h2_i--) {
+    for (int h2_i = n2 - 1; h2_i >= 0; h2_i--) {
         
         cin >> h2[h2_i];
         stacksSum[1] += h2[h2_i];
@@ -68,7 +68,7 @@ int main(){
     vector<int> h3(n3);
     stacksSum[2] = 0;
     
-    for(int h3_i = n3 - 1; h3_i >= 0; h3_i--) {
+    for (int h3_i = n3 - 1; h3_i >= 0; h3_i--) {
         
         cin >> h3[h3_i];
         stacksSum[2] += h3[h3_i];
@@ -86,7 +86,7 @@ int main(){
         for (int k = 0; k < 3; k++) {
             
             //If current stack is not empty
-            if(!stacks[k].empty() && stacksSum[k] != minHeight) {
+            if (!stacks[k].empty() && stacksSum[k] != minHeight) {
                 
                 int lastElement = stacks[k].back();
                 stacks[k].pop_back();
@@ -95,7 +95,7 @@ int main(){
         }
         
         //Stop checking if we have the same height for all stacks.
-        if(stacksSum[0] == stacksSum[1] && stacksSum[1] == stacksSum[2] && stacksSum[0] == stacksSum[2]) {
+        if (stacksSum[0] == stacksSum[1] && stacksSum[1] == stacksSum[2] && stacksSum[0] == stacksSum[2]) {
             
             break;
         }

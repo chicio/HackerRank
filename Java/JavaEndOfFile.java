@@ -1,5 +1,5 @@
 //
-//  JavaDatatypes.java
+//  JavaEndOfFile.java
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 17/11/2016.

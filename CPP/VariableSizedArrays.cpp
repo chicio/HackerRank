@@ -24,7 +24,7 @@ int main() {
 
     arrays = new int* [n];
     
-    for(int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         
         cin >> k;
 
@@ -39,7 +39,7 @@ int main() {
     //Queries indexes received as input.
     int a, b;
     
-    for(int i = 0; i < q; i++) {
+    for (int i = 0; i < q; i++) {
         
         cin >> a >> b;
         cout << arrays[a][b] << endl;

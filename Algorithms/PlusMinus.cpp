@@ -15,7 +15,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
     
     int n;
     cin >> n;
@@ -26,15 +26,15 @@ int main(){
     
     int current_value;
     
-    for(int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++) {
         
         cin >> current_value;
         
         //Add to the right set.
-        if(current_value > 0) {
+        ifn (current_value > 0) {
             
             positives++;
-        } else if(current_value < 0) {
+        } else if (current_value < 0) {
             
             negatives++;
         } else {

@@ -40,7 +40,7 @@ template <typename T>
 class LinkedList {
 private:
     
-    ///Head node of the linked list.
+    /// Head node of the linked list.
     Node<T>* head;
 
 public:

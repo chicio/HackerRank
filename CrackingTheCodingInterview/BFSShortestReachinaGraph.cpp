@@ -18,7 +18,7 @@ private:
     /// Number of vertices.
     int numberOfVertices;
     
-    ///Adjacency list.
+    /// Adjacency list.
     list<int> *adj;
     
 public:
