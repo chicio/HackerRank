@@ -116,22 +116,22 @@ int main(int argc, const char * argv[]){
                         break;
                     }
                     
-                    if ([lastParenthesis isEqualToString:@"("] == YES &&
-                        [currentParenthesis isEqualToString:@")"] == NO) {
+                    if ([lastParenthesis isEqualToString:@"("] &&
+                        ![currentParenthesis isEqualToString:@")"]) {
                         
                         result = @"NO";
                         break;
                     }
                     
-                    if ([lastParenthesis isEqualToString:@"["] == YES &&
-                        [currentParenthesis isEqualToString:@"]"] == NO) {
+                    if ([lastParenthesis isEqualToString:@"["] &&
+                        ![currentParenthesis isEqualToString:@"]"]) {
                         
                         result = @"NO";
                         break;
                     }
                     
-                    if ([lastParenthesis isEqualToString:@"{"] == YES &&
-                        [currentParenthesis isEqualToString:@"}"] == NO) {
+                    if ([lastParenthesis isEqualToString:@"{"] &&
+                        ![currentParenthesis isEqualToString:@"}"]) {
                         
                         result = @"NO";
                         break;
