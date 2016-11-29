@@ -16,7 +16,7 @@ using namespace std;
 
 /*!
  Calculate the number of delete needed to 
- transform to strings anagrams.
+ transform two strings anagrams.
  
  @param a first string that we want to transform in anagrams.
  @param b second string that we want to transform in anagrams.

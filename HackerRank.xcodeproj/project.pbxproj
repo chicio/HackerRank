@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5FB387621DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB387611DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp */; };
+		5FD369A01DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3699F1DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -156,6 +157,8 @@
 		5FD07D0F1D5660AC00A3296C /* Strings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Strings.cpp; sourceTree = "<group>"; };
 		5FD07D111D5664CB00A3296C /* StringStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringStream.cpp; sourceTree = "<group>"; };
 		5FD07D151D56793C00A3296C /* JumpingOntheCloudsRevisited.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingOntheCloudsRevisited.cpp; sourceTree = "<group>"; };
+		5FD3699D1DEE31440072CE7B /* GetNodeValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetNodeValue.cpp; sourceTree = "<group>"; };
+		5FD3699F1DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeleteDuplicateValueNodesFromaSortedLinkedList.cpp; sourceTree = "<group>"; };
 		5FDBAF7E1D861D5E000F0690 /* Quicksort1Partition.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort1Partition.cpp; sourceTree = "<group>"; };
 		5FDBAF811D8626AA000F0690 /* Quicksort2Sorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Quicksort2Sorting.cpp; sourceTree = "<group>"; };
 		5FDDB3C11DA119E500C3C8C0 /* Day15LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day15LinkedList.swift; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 				5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */,
 				5F2E23EF1DC00136001565D5 /* CompareTwoLinkedLists.cpp */,
 				5F2E23F11DC00D4C001565D5 /* MergeTwoSortedLinkedLists.cpp */,
+				5FD3699D1DEE31440072CE7B /* GetNodeValue.cpp */,
+				5FD3699F1DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -458,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD369A01DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp in Sources */,
 				5FB387621DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

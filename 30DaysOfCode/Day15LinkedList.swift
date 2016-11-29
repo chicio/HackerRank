@@ -14,6 +14,7 @@ class Node {
     var next: Node?
     
     init(data: Int) {
+        
         self.data = data
         self.next = nil
     }
@@ -51,6 +52,7 @@ func display(head: Node!) {
     var current: Node! = head
     
     while current != nil {
+        
         print(current.data, terminator: " ")
         current = current.next
     }
