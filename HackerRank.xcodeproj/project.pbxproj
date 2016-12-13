@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FB387621DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FB387611DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp */; };
-		5FD369A01DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FD3699F1DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp */; };
+		5F83D72B1E00B649000C7512 /* TreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F83D72A1E00B649000C7512 /* TreeLevelOrderTraversal.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +99,9 @@
 		5F4A5C5B1DCDF4F70040DC08 /* RecursionFibonacciNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionFibonacciNumbers.cpp; sourceTree = "<group>"; };
 		5F4A5C5D1DCE06AC0040DC08 /* RecursionDavisStaircase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecursionDavisStaircase.m; sourceTree = "<group>"; };
 		5F4A5C5F1DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreesIsThisaBinarySearchTree.cpp; sourceTree = "<group>"; };
+		5F633AD61DF20E4B001FF813 /* CycleDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CycleDetection.cpp; sourceTree = "<group>"; };
+		5F633AD81DF211A1001FF813 /* FindMergePointofTwoLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMergePointofTwoLists.cpp; sourceTree = "<group>"; };
+		5F633ADA1DF21A79001FF813 /* InsertingaNodeIntoaSortedDoublyLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertingaNodeIntoaSortedDoublyLinkedList.cpp; sourceTree = "<group>"; };
 		5F633C3B1D7DFF28005446E8 /* InsertionSortPart2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart2.cpp; sourceTree = "<group>"; };
 		5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriesContacts.m; sourceTree = "<group>"; };
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
@@ -112,8 +114,15 @@
 		5F83D3671D8C78500026D183 /* CountingSort2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort2.cpp; sourceTree = "<group>"; };
 		5F83D3691D8C7D860026D183 /* CountingSort3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountingSort3.cpp; sourceTree = "<group>"; };
 		5F83D36C1D8C85520026D183 /* TheFullCountingSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TheFullCountingSort.cpp; sourceTree = "<group>"; };
+		5F83D71F1E009DAE000C7512 /* TreePreorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreePreorderTraversal.cpp; sourceTree = "<group>"; };
+		5F83D7221E00A13E000C7512 /* TreePostorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreePostorderTraversal.cpp; sourceTree = "<group>"; };
+		5F83D7241E00A388000C7512 /* TreeInorderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeInorderTraversal.cpp; sourceTree = "<group>"; };
+		5F83D7261E00A5E6000C7512 /* TreeHeightofaBinaryTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeHeightofaBinaryTree.swift; sourceTree = "<group>"; };
+		5F83D7281E00ADB4000C7512 /* TreeTopView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeTopView.cpp; sourceTree = "<group>"; };
+		5F83D72A1E00B649000C7512 /* TreeLevelOrderTraversal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeLevelOrderTraversal.cpp; sourceTree = "<group>"; };
 		5F83EA751DC9089200AC0E00 /* LinkedListsDetectaCycle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListsDetectaCycle.cpp; sourceTree = "<group>"; };
 		5F8562D71DCC043900CFEDFA /* BinarySearchIceCreamParlor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinarySearchIceCreamParlor.m; sourceTree = "<group>"; };
+		5F89EC601DFB1E0D009187A4 /* ReverseADoublyLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseADoublyLinkedList.cpp; sourceTree = "<group>"; };
 		5FAED7351D9F13C2006A84B7 /* Day13AbstractClasses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Day13AbstractClasses.cpp; path = 30DaysOfCode/Day13AbstractClasses.cpp; sourceTree = SOURCE_ROOT; };
 		5FB387611DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BFSShortestReachinaGraph.cpp; sourceTree = "<group>"; };
 		5FB60A3D1D676E45000F0B82 /* Structs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Structs.cpp; sourceTree = "<group>"; };
@@ -234,8 +243,18 @@
 				5FEAA9731DBE479900A6EBB5 /* ReverseaLinkedList.cpp */,
 				5F2E23EF1DC00136001565D5 /* CompareTwoLinkedLists.cpp */,
 				5F2E23F11DC00D4C001565D5 /* MergeTwoSortedLinkedLists.cpp */,
-				5FD3699D1DEE31440072CE7B /* GetNodeValue.cpp */,
 				5FD3699F1DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp */,
+				5FD3699D1DEE31440072CE7B /* GetNodeValue.cpp */,
+				5F633AD61DF20E4B001FF813 /* CycleDetection.cpp */,
+				5F633AD81DF211A1001FF813 /* FindMergePointofTwoLists.cpp */,
+				5F633ADA1DF21A79001FF813 /* InsertingaNodeIntoaSortedDoublyLinkedList.cpp */,
+				5F89EC601DFB1E0D009187A4 /* ReverseADoublyLinkedList.cpp */,
+				5F83D71F1E009DAE000C7512 /* TreePreorderTraversal.cpp */,
+				5F83D7221E00A13E000C7512 /* TreePostorderTraversal.cpp */,
+				5F83D7241E00A388000C7512 /* TreeInorderTraversal.cpp */,
+				5F83D7261E00A5E6000C7512 /* TreeHeightofaBinaryTree.swift */,
+				5F83D7281E00ADB4000C7512 /* TreeTopView.cpp */,
+				5F83D72A1E00B649000C7512 /* TreeLevelOrderTraversal.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -463,8 +482,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FD369A01DEE33590072CE7B /* DeleteDuplicateValueNodesFromaSortedLinkedList.cpp in Sources */,
-				5FB387621DDB5CBB00BF1D1E /* BFSShortestReachinaGraph.cpp in Sources */,
+				5F83D72B1E00B649000C7512 /* TreeLevelOrderTraversal.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

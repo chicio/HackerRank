@@ -1,3 +1,10 @@
+//
+//  JavaSubstring.java
+//  HackerRank
+//
+//  Created by Fabrizio Duroni on 01/12/2016.
+//
+//  https://www.hackerrank.com/challenges/java-string-compare
 
 import java.util.Scanner;
 
