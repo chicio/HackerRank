@@ -49,37 +49,3 @@ void LevelOrder(node * root) {
         }
     }
 }
-
-///*
-// Breadth first search visit method.
-// 
-// @param root the current root level of the tree.
-// */
-//func levelOrder(root: Node?) {
-//    
-//    if let rootNode = root {
-//        
-//        var queue = [Node]()
-//        
-//        queue.append(rootNode)
-//        
-//        var current:Node
-//        
-//        while queue.isEmpty == false {
-//            
-//            current = queue.removeFirst()
-//            
-//            print("\(current.data)", separator: "", terminator: " ")
-//            
-//            if let leftSubtree = current.left {
-//                
-//                queue.append(leftSubtree)
-//            }
-//            
-//            if let rightSubtree = current.right {
-//                
-//                queue.append(rightSubtree)
-//            }
-//        }
-//    }
-//} // End of function levelOrder

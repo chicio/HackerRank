@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F83D72B1E00B649000C7512 /* TreeLevelOrderTraversal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F83D72A1E00B649000C7512 /* TreeLevelOrderTraversal.cpp */; };
+		5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -141,6 +141,9 @@
 		5FCA37441DB955A300C7F7E7 /* SparseArrays.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SparseArrays.cpp; sourceTree = "<group>"; };
 		5FCC574A1DBAAE4000F1594C /* PrintTheElementsOfaLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintTheElementsOfaLinkedList.cpp; sourceTree = "<group>"; };
 		5FCC77231D9FC29900B2E861 /* Day14Scope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day14Scope.swift; sourceTree = "<group>"; };
+		5FCD66291E01ED0E007152C2 /* BinarySearchTreeInsertion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTreeInsertion.cpp; sourceTree = "<group>"; };
+		5FCD662B1E0200F6007152C2 /* TreeHuffmanDecoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeHuffmanDecoding.cpp; sourceTree = "<group>"; };
+		5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearchTreeLowestCommonAncestor.cpp; sourceTree = "<group>"; };
 		5FD07CE11D565A0E00A3296C /* AngryProfessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = AngryProfessor.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE21D565A0E00A3296C /* BiggerIsGreater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = BiggerIsGreater.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
 		5FD07CE31D565A0E00A3296C /* CutTheSticks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = CutTheSticks.cpp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.cpp; };
@@ -255,6 +258,9 @@
 				5F83D7261E00A5E6000C7512 /* TreeHeightofaBinaryTree.swift */,
 				5F83D7281E00ADB4000C7512 /* TreeTopView.cpp */,
 				5F83D72A1E00B649000C7512 /* TreeLevelOrderTraversal.cpp */,
+				5FCD66291E01ED0E007152C2 /* BinarySearchTreeInsertion.cpp */,
+				5FCD662B1E0200F6007152C2 /* TreeHuffmanDecoding.cpp */,
+				5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -482,7 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F83D72B1E00B649000C7512 /* TreeLevelOrderTraversal.cpp in Sources */,
+				5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
