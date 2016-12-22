@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F6ED2031E0B5FC500704393 /* IsThisaBinarySearchTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */; };
 		5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */; };
 /* End PBXBuildFile section */
 
@@ -106,6 +107,7 @@
 		5F6AC9CF1DCF6C6B00BA9774 /* TriesContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriesContacts.m; sourceTree = "<group>"; };
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
+		5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsThisaBinarySearchTree.cpp; sourceTree = "<group>"; };
 		5F720D791DB3890C00F29D74 /* Day29BitwiseAND.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day29BitwiseAND.swift; path = 30DaysOfCode/Day29BitwiseAND.swift; sourceTree = SOURCE_ROOT; };
 		5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosetsNumber.cpp; sourceTree = "<group>"; };
 		5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day0HelloWorld.swift; path = 30DaysOfCode/Day0HelloWorld.swift; sourceTree = SOURCE_ROOT; };
@@ -184,6 +186,7 @@
 		5FF80C551D7C575B0077EF82 /* InsertionSortPart1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSortPart1.cpp; sourceTree = "<group>"; };
 		5FF9B1801DA46DBE0045AC6F /* Day17MoreExceptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day17MoreExceptions.swift; path = 30DaysOfCode/Day17MoreExceptions.swift; sourceTree = SOURCE_ROOT; };
 		5FFA52BB1DC1788300B1DDEF /* SortingComparator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortingComparator.cpp; sourceTree = "<group>"; };
+		5FFBAA641E06DBD4006D1690 /* SwapNodes[Algo].m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SwapNodes[Algo].m"; sourceTree = "<group>"; };
 		5FFC35EB1DA83B3700A4DB4A /* Day20Sorting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day20Sorting.swift; sourceTree = "<group>"; };
 		5FFD62E41D7A13C400E5281B /* FindPoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindPoint.cpp; sourceTree = "<group>"; };
 		5FFD62E61D7A145400E5281B /* Handshake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Handshake.cpp; sourceTree = "<group>"; };
@@ -261,6 +264,8 @@
 				5FCD66291E01ED0E007152C2 /* BinarySearchTreeInsertion.cpp */,
 				5FCD662B1E0200F6007152C2 /* TreeHuffmanDecoding.cpp */,
 				5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */,
+				5FFBAA641E06DBD4006D1690 /* SwapNodes[Algo].m */,
+				5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -488,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F6ED2031E0B5FC500704393 /* IsThisaBinarySearchTree.cpp in Sources */,
 				5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

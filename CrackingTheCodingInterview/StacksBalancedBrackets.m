@@ -84,13 +84,13 @@ int main(int argc, const char * argv[]){
     @autoreleasepool {
         
         int t;
-        scanf("%i",&t);
+        scanf("%i", &t);
         
         for(int a0 = 0; a0 < t; a0++) {
             
             NSString* expression;
             char* expression_temp = (char *)malloc(512000 * sizeof(char));
-            scanf("%s",expression_temp);
+            scanf("%s", expression_temp);
             expression = [NSString stringWithFormat:@"%s", expression_temp];
             
             Stack *stackParenthesis = [[Stack alloc] init];
