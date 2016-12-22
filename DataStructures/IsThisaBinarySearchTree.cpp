@@ -6,6 +6,8 @@
 //
 //  https://www.hackerrank.com/challenges/is-binary-search-tree
 
+#include <climits>
+
 struct Node {
 
     int data;
@@ -13,10 +15,28 @@ struct Node {
     Node* right;
 };
 
-
-bool checkBST(Node* root) {
-  
+bool checkNode(Node *node, int min, int max) {
     
+    if (node == nullptr) {
+        
+        return true;
+    }
+    
+    if (node->data <= min || node->data >= max) {
+        
+        return false;
+    }
+    
+    return checkNode(node->left, min, node->data) && checkNode(node->right, node->data, max);
 }
 
+/*!
+ Check if a binary tree is a binary search tree.
+ 
+ @param root root of the tree.
+ */
+bool checkBST(Node* root) {
+    
+    return checkNode(root, INT_MIN, INT_MAX);
+}
 
