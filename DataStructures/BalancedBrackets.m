@@ -1,10 +1,10 @@
 //
-//  MaximumElement.m
+//  BalancedBrackets.m
 //  HackerRank
 //
-//  Created by Fabrizio Duroni on 22/12/2016.
-//
-//  https://www.hackerrank.com/challenges/maximum-element
+//  Created by Fabrizio Duroni on 23/12/2016.
+//  
+//  https://www.hackerrank.com/challenges/balanced-brackets
 
 #import <Foundation/Foundation.h>
 
@@ -66,7 +66,7 @@
 - (void)push:(id)element {
     
     if (element) {
-
+        
         [self.stackArray addObject:element];
     }
 }
@@ -115,7 +115,7 @@
 @implementation StackWithMax
 
 - (instancetype)init {
- 
+    
     self = [super init];
     
     if (self) {
@@ -155,7 +155,7 @@
 }
 
 - (id)max {
- 
+    
     if ([[self.stackMax peek] isEqualTo:[NSNumber numberWithInt:0]]) {
         
         NSLog(@"");
@@ -173,36 +173,69 @@ int main(int argc, const char * argv[]){
     
     @autoreleasepool {
         
-        int numberOfOperation;
-        scanf("%i", &numberOfOperation);
-
-        StackWithMax *stack = [[StackWithMax alloc] init];
+        int t;
+        scanf("%i", &t);
         
-        for (int i = 0; i < numberOfOperation; i++) {
+        for(int a0 = 0; a0 < t; a0++) {
             
-            int operation;
-            scanf("%i", &operation);
-
-            switch (operation) {
-                case 1: {
-                    int value;
-                    scanf("%i", &value);
-                    [stack push:[NSNumber numberWithInt:value]];
-                    break;
+            NSString* expression;
+            char* expression_temp = (char *)malloc(512000 * sizeof(char));
+            scanf("%s", expression_temp);
+            expression = [NSString stringWithFormat:@"%s", expression_temp];
+            
+            Stack *stackParenthesis = [[Stack alloc] init];
+            
+            NSString* result = @"YES";
+            
+            for (int i = 0; i < expression.length; i++) {
+                
+                NSString *currentParenthesis = [NSString stringWithFormat:@"%C", [expression characterAtIndex:i]];
+                
+                if ([currentParenthesis isEqualToString:@"{"] ||
+                    [currentParenthesis isEqualToString:@"["] ||
+                    [currentParenthesis isEqualToString:@"("]) {
+                    
+                    [stackParenthesis push:currentParenthesis];
+                } else {
+                    
+                    NSString *lastParenthesis =  [stackParenthesis pop];
+                    
+                    if (lastParenthesis == nil) {
+                        
+                        result = @"NO";
+                        break;
+                    }
+                    
+                    if ([lastParenthesis isEqualToString:@"("] &&
+                        ![currentParenthesis isEqualToString:@")"]) {
+                        
+                        result = @"NO";
+                        break;
+                    }
+                    
+                    if ([lastParenthesis isEqualToString:@"["] &&
+                        ![currentParenthesis isEqualToString:@"]"]) {
+                        
+                        result = @"NO";
+                        break;
+                    }
+                    
+                    if ([lastParenthesis isEqualToString:@"{"] &&
+                        ![currentParenthesis isEqualToString:@"}"]) {
+                        
+                        result = @"NO";
+                        break;
+                    }
                 }
-                case 2: {
-                    [stack pop];
-                    break;
-                }
-                case 3: {
-                    printf("%i \n", [[stack max] intValue]);
-                    break;
-                }
-                default:
-                    break;
             }
+            
+            if ([stackParenthesis isEmpty] == NO) {
+                
+                result = @"NO";
+            }
+            
+            printf("%s\n", [result UTF8String]);
         }
-        
     }
     
     return 0;

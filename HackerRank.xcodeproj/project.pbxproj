@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F80C8B51E0C7E310061EAFC /* MaximumElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F80C8B41E0C7E310061EAFC /* MaximumElement.m */; };
+		5F5B27E51E0DDF1000DF5F23 /* BalancedBrackets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */; };
 		5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +100,7 @@
 		5F4A5C5B1DCDF4F70040DC08 /* RecursionFibonacciNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionFibonacciNumbers.cpp; sourceTree = "<group>"; };
 		5F4A5C5D1DCE06AC0040DC08 /* RecursionDavisStaircase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecursionDavisStaircase.m; sourceTree = "<group>"; };
 		5F4A5C5F1DCE1FE20040DC08 /* TreesIsThisaBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreesIsThisaBinarySearchTree.cpp; sourceTree = "<group>"; };
+		5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BalancedBrackets.m; sourceTree = "<group>"; };
 		5F633AD61DF20E4B001FF813 /* CycleDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CycleDetection.cpp; sourceTree = "<group>"; };
 		5F633AD81DF211A1001FF813 /* FindMergePointofTwoLists.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMergePointofTwoLists.cpp; sourceTree = "<group>"; };
 		5F633ADA1DF21A79001FF813 /* InsertingaNodeIntoaSortedDoublyLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertingaNodeIntoaSortedDoublyLinkedList.cpp; sourceTree = "<group>"; };
@@ -268,6 +269,7 @@
 				5FFBAA641E06DBD4006D1690 /* SwapNodes[Algo].m */,
 				5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */,
 				5F80C8B41E0C7E310061EAFC /* MaximumElement.m */,
+				5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -495,7 +497,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F80C8B51E0C7E310061EAFC /* MaximumElement.m in Sources */,
+				5F5B27E51E0DDF1000DF5F23 /* BalancedBrackets.m in Sources */,
 				5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
