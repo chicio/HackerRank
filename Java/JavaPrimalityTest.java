@@ -1,3 +1,11 @@
+//
+//  JavaPrimalityTest.java
+//  HackerRank
+//
+//  Created by Fabrizio Duroni on 29/12/2016.
+//
+//  https://www.hackerrank.com/challenges/java-primality-test
+
 import java.math.BigInteger;
 import java.util.Scanner;
 
