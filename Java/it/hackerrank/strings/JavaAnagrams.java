@@ -1,4 +1,3 @@
-package it.hackerrank.strings;
 //
 //  JavaSubstring.java
 //  HackerRank
@@ -6,6 +5,8 @@ package it.hackerrank.strings;
 //  Created by Fabrizio Duroni on 09/12/2016.
 //
 //  https://www.hackerrank.com/challenges/java-anagrams
+
+package it.hackerrank.strings;
 
 import java.util.Scanner;
 

@@ -1,4 +1,3 @@
-package it.hackerrank.strings;
 //
 //  JavaStringsIntroduction.java
 //  HackerRank
@@ -6,6 +5,8 @@ package it.hackerrank.strings;
 //  Created by Fabrizio Duroni on 29/11/2016.
 //
 //  https://www.hackerrank.com/challenges/java-strings-introduction
+
+package it.hackerrank.strings;
 
 import java.util.*;
 

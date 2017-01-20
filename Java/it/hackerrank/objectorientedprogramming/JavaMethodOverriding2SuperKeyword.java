@@ -1,4 +1,3 @@
-package it.hackerrank.objectorientedprogramming;
 //
 //  JavaMethodOverriding2SuperKeyword.java
 //  HackerRank
@@ -6,6 +5,8 @@ package it.hackerrank.objectorientedprogramming;
 //  Created by Fabrizio Duroni on 19/11/2016.
 //
 //  https://www.hackerrank.com/challenges/java-method-overriding-2-super-keyword
+
+package it.hackerrank.objectorientedprogramming;
 
 class BiCycle {
 	

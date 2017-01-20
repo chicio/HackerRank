@@ -1,4 +1,3 @@
-package it.hackerrank.objectorientedprogramming;
 //
 //  JavaInheritanceII.java
 //  HackerRank
@@ -6,6 +5,8 @@ package it.hackerrank.objectorientedprogramming;
 //  Created by Fabrizio Duroni on 19/11/2016.
 //
 //  https://www.hackerrank.com/challenges/java-inheritance-2
+
+package it.hackerrank.objectorientedprogramming;
 
 class Arithmetic {
 	

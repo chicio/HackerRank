@@ -63,7 +63,9 @@ for i in 0 ..< (s.characters.count / 2) {
 
 // finally print whether string s is palindrome or not.
 if isPalindrome {
+    
     print("The word, \(s), is a palindrome.")
 } else {
+    
     print("The word, \(s), is not a palindrome.")
 }

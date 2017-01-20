@@ -1,4 +1,3 @@
-package it.hackerrank.strings;
 //
 //  JavaSubstring.java
 //  HackerRank
@@ -6,6 +5,8 @@ package it.hackerrank.strings;
 //  Created by Fabrizio Duroni on 01/12/2016.
 //
 //  https://www.hackerrank.com/challenges/java-string-compare
+
+package it.hackerrank.strings;
 
 import java.util.Scanner;
 

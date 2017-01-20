@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F5B27E51E0DDF1000DF5F23 /* BalancedBrackets.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */; };
-		5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FCD662D1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp */; };
+		5F71F05C1E31711C0072C5FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F71F05B1E31711C0072C5FA /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +108,7 @@
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
 		5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsThisaBinarySearchTree.cpp; sourceTree = "<group>"; };
+		5F71F05B1E31711C0072C5FA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5F720D791DB3890C00F29D74 /* Day29BitwiseAND.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day29BitwiseAND.swift; path = 30DaysOfCode/Day29BitwiseAND.swift; sourceTree = SOURCE_ROOT; };
 		5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosetsNumber.cpp; sourceTree = "<group>"; };
 		5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day0HelloWorld.swift; path = 30DaysOfCode/Day0HelloWorld.swift; sourceTree = SOURCE_ROOT; };
@@ -270,6 +270,7 @@
 				5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */,
 				5F80C8B41E0C7E310061EAFC /* MaximumElement.m */,
 				5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */,
+				5F71F05B1E31711C0072C5FA /* main.swift */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -497,8 +498,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F5B27E51E0DDF1000DF5F23 /* BalancedBrackets.m in Sources */,
-				5FCD662E1E0209A0007152C2 /* BinarySearchTreeLowestCommonAncestor.cpp in Sources */,
+				5F71F05C1E31711C0072C5FA /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
