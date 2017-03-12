@@ -1,5 +1,5 @@
 //
-//  PrimeChecker.java
+//  Java1DArrayPart2.java
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 04/03/2017.
