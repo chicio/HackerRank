@@ -1,3 +1,11 @@
+//
+//  JavaFactoryPattern.java
+//  HackerRank
+//
+//  Created by Fabrizio Duroni on 13/03/2017.
+//
+//  https://www.hackerrank.com/challenges/java-factory
+
 package it.hackerrank.advanced;
 
 import java.util.*;

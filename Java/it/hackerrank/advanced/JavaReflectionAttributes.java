@@ -1,5 +1,5 @@
 //
-//  JavaVarargsSimpleAddition.java
+//  JavaReflectionAttributes.java
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 13/03/2017.
