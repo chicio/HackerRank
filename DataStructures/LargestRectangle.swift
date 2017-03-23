@@ -5,6 +5,7 @@
 //  Created by Fabrizio Duroni on 19/01/2017.
 //  Copyright © 2017 Fabrizio Duroni. All rights reserved.
 //
+//  https://www.hackerrank.com/challenges/largest-rectangle
 
 import Foundation
 
