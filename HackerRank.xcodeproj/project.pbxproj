@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F71F05C1E31711C0072C5FA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F71F05B1E31711C0072C5FA /* main.swift */; };
+		452B299B1E841F270018DAED /* GameOfTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452B299A1E841F270018DAED /* GameOfTwoStacks.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +33,7 @@
 		45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfAlgorithms.cpp; sourceTree = "<group>"; };
 		4525BE9E1DCA0E3800CF61D4 /* StacksBalancedBrackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StacksBalancedBrackets.m; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
+		452B299A1E841F270018DAED /* GameOfTwoStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfTwoStacks.cpp; sourceTree = "<group>"; };
 		455E93601D9BDCD000CADD96 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day112DArrays.swift; path = 30DaysOfCode/Day112DArrays.swift; sourceTree = SOURCE_ROOT; };
 		456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTablesRansomNote.cpp; sourceTree = "<group>"; };
 		4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
@@ -108,7 +109,7 @@
 		5F6C47A41D97FB910084ACAC /* Day8DictionariesAndMaps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day8DictionariesAndMaps.swift; path = 30DaysOfCode/Day8DictionariesAndMaps.swift; sourceTree = SOURCE_ROOT; };
 		5F6D4A2F1D92AFE900E29585 /* Day4ClassvsInstance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day4ClassvsInstance.swift; path = 30DaysOfCode/Day4ClassvsInstance.swift; sourceTree = SOURCE_ROOT; };
 		5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsThisaBinarySearchTree.cpp; sourceTree = "<group>"; };
-		5F71F05B1E31711C0072C5FA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		5F71F05B1E31711C0072C5FA /* LargestRectangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargestRectangle.swift; sourceTree = "<group>"; };
 		5F720D791DB3890C00F29D74 /* Day29BitwiseAND.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day29BitwiseAND.swift; path = 30DaysOfCode/Day29BitwiseAND.swift; sourceTree = SOURCE_ROOT; };
 		5F7CA90C1D8D6CA6006867DD /* ClosetsNumber.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosetsNumber.cpp; sourceTree = "<group>"; };
 		5F7CA9251D8D7C4C006867DD /* Day0HelloWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day0HelloWorld.swift; path = 30DaysOfCode/Day0HelloWorld.swift; sourceTree = SOURCE_ROOT; };
@@ -270,7 +271,8 @@
 				5F6ED2021E0B5FC500704393 /* IsThisaBinarySearchTree.cpp */,
 				5F80C8B41E0C7E310061EAFC /* MaximumElement.m */,
 				5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */,
-				5F71F05B1E31711C0072C5FA /* main.swift */,
+				5F71F05B1E31711C0072C5FA /* LargestRectangle.swift */,
+				452B299A1E841F270018DAED /* GameOfTwoStacks.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -498,7 +500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F71F05C1E31711C0072C5FA /* main.swift in Sources */,
+				452B299B1E841F270018DAED /* GameOfTwoStacks.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
