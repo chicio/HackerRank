@@ -1,3 +1,11 @@
+#
+# PythonIfElse.py
+# HackerRank
+#
+# Created by Fabrizio Duroni on 14/10/17.
+#
+# https://www.hackerrank.com/challenges/py-if-else
+
 n = int(raw_input())
 
 if n % 2 != 0:
