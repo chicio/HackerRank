@@ -1,3 +1,11 @@
+//
+//  Day0HelloWorld.js
+//  HackerRank
+//
+//  Created by Fabrizio Duroni on 21/10/17.
+//
+//  https://www.hackerrank.com/challenges/js10-data-types
+
 'use strict';
 
 process.stdin.resume();

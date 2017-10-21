@@ -1,10 +1,10 @@
 //
-//  Day0HelloWorld.js
+//  Day1ArithmeticOperators.js
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 21/10/17.
 //
-//  https://www.hackerrank.com/challenges/js10-hello-world
+//  https://www.hackerrank.com/challenges/js10-arithmetic-operators
 
 'use strict';
 
@@ -30,12 +30,18 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-function greeting(parameterVariable) {
-    console.log('Hello, World!');
-    console.log(parameterVariable)
+function getArea(length, width) {
+    return length * width;
+}
+
+function getPerimeter(length, width) {
+    return length * 2 + width * 2;
 }
 
 function main() {
-    const parameterVariable = readLine();
-    greeting(parameterVariable);
+    const length = +(readLine());
+    const width = +(readLine());
+
+    console.log(getArea(length, width));
+    console.log(getPerimeter(length, width));
 }

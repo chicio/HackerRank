@@ -1,10 +1,10 @@
 //
-//  Day0HelloWorld.js
+//  Day1LetAndConst.js
 //  HackerRank
 //
 //  Created by Fabrizio Duroni on 21/10/17.
 //
-//  https://www.hackerrank.com/challenges/js10-hello-world
+//  https://www.hackerrank.com/challenges/js10-let-and-const
 
 'use strict';
 
@@ -30,12 +30,9 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-function greeting(parameterVariable) {
-    console.log('Hello, World!');
-    console.log(parameterVariable)
-}
-
 function main() {
-    const parameterVariable = readLine();
-    greeting(parameterVariable);
+    const r = readLine();
+    const PI = Math.PI;
+    console.log(PI * Math.pow(r, 2));
+    console.log(2 * PI * r);
 }

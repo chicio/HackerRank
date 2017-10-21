@@ -13,6 +13,7 @@ Programming Languages:
 * Java
 * Haskell
 * Python
+* Javascript
 
 Domains:
 * [30 Days of Code](https://www.hackerrank.com/domains/tutorials/30-days-of-code "30 Days of Code")
@@ -24,3 +25,4 @@ Domains:
 * [Python](https://www.hackerrank.com/domains/python "Python")
 * [Mathematics](https://www.hackerrank.com/domains/mathematics/ "Mathematics")
 * [Functional Programming](https://www.hackerrank.com/domains/fp/ "Functional Programming")
+* [10 Days of Javascript](https://www.hackerrank.com/domains/tutorials/10-days-of-javascript "10 Days of Javascript")

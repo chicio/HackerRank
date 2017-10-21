@@ -4,7 +4,7 @@
 #
 # Created by Fabrizio Duroni on 18/10/17.
 #
-# https://www.hackerrank.com/challenges/string-validators
+# https://www.hackerrank.com/challenges/text-alignment
 
 
 thickness = int(raw_input())
