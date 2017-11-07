@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		452B299B1E841F270018DAED /* GameOfTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 452B299A1E841F270018DAED /* GameOfTwoStacks.cpp */; };
+		45D9FF041FB224760006285D /* Day1Quartiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45D9FF031FB224760006285D /* Day1Quartiles.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,7 +33,6 @@
 		45240F6E1D7EE42C00A307E2 /* RunningTimeOfAlgorithms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RunningTimeOfAlgorithms.cpp; sourceTree = "<group>"; };
 		4525BE9E1DCA0E3800CF61D4 /* StacksBalancedBrackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StacksBalancedBrackets.m; sourceTree = "<group>"; };
 		452A576D1D6CA76100C845E7 /* MapsSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapsSTL.cpp; sourceTree = "<group>"; };
-		452B299A1E841F270018DAED /* GameOfTwoStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOfTwoStacks.cpp; sourceTree = "<group>"; };
 		455E93601D9BDCD000CADD96 /* Day112DArrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day112DArrays.swift; path = 30DaysOfCode/Day112DArrays.swift; sourceTree = SOURCE_ROOT; };
 		456E2FF41DC223B90040F4E5 /* HashTablesRansomNote.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTablesRansomNote.cpp; sourceTree = "<group>"; };
 		4576A80F1D93F78B0013A1B9 /* Day5Loops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day5Loops.swift; sourceTree = "<group>"; };
@@ -48,11 +47,14 @@
 		4595567C1DA668BF001768DA /* Day19Interfaces.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Day19Interfaces.cpp; path = 30DaysOfCode/Day19Interfaces.cpp; sourceTree = SOURCE_ROOT; };
 		45A23BBC1D896A9B00ECCF33 /* QuicksortInPlace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuicksortInPlace.cpp; sourceTree = "<group>"; };
 		45A635DB1D8FFC1200E2AC94 /* Day2Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Day2Operators.swift; path = 30DaysOfCode/Day2Operators.swift; sourceTree = SOURCE_ROOT; };
+		45AA88A81FB08C620032740B /* Day0MeanMedianAndMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day0MeanMedianAndMode.cpp; sourceTree = "<group>"; };
 		45B113531D6F45BB009E082F /* DequeSTL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DequeSTL.cpp; sourceTree = "<group>"; };
 		45CB94351D9944B000B968C0 /* Day9Recursion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day9Recursion.swift; sourceTree = "<group>"; };
 		45CDC3331D6B2404002E6E12 /* VectorSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorSort.cpp; sourceTree = "<group>"; };
 		45CDC3351D6B25FC002E6E12 /* VectorErase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VectorErase.cpp; sourceTree = "<group>"; };
 		45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringsMakingAnagrams.cpp; sourceTree = "<group>"; };
+		45D9FF011FB21FCF0006285D /* Day0WeightedMean.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day0WeightedMean.cpp; sourceTree = "<group>"; };
+		45D9FF031FB224760006285D /* Day1Quartiles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1Quartiles.cpp; sourceTree = "<group>"; };
 		45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
 		45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
@@ -208,6 +210,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45AA88A71FB08C3C0032740B /* 10DaysOfStatistics */ = {
+			isa = PBXGroup;
+			children = (
+				45AA88A81FB08C620032740B /* Day0MeanMedianAndMode.cpp */,
+				45D9FF011FB21FCF0006285D /* Day0WeightedMean.cpp */,
+				45D9FF031FB224760006285D /* Day1Quartiles.cpp */,
+			);
+			path = 10DaysOfStatistics;
+			sourceTree = SOURCE_ROOT;
+		};
 		5F2E23F41DC01C89001565D5 /* CrackingTheCodingInterview */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,7 +284,6 @@
 				5F80C8B41E0C7E310061EAFC /* MaximumElement.m */,
 				5F5B27E41E0DDF1000DF5F23 /* BalancedBrackets.m */,
 				5F71F05B1E31711C0072C5FA /* LargestRectangle.swift */,
-				452B299A1E841F270018DAED /* GameOfTwoStacks.cpp */,
 			);
 			path = DataStructures;
 			sourceTree = "<group>";
@@ -426,6 +437,7 @@
 				5F3E789E1D95B25C00F478F8 /* README.md */,
 				4576A8111D93F79D0013A1B9 /* HackerRank-Bridging-Header.h */,
 				5F7CA90E1D8D771C006867DD /* 30DaysOfCode */,
+				45AA88A71FB08C3C0032740B /* 10DaysOfStatistics */,
 				5FD07CE01D565A0E00A3296C /* Algorithms */,
 				5FD07CED1D565A0E00A3296C /* CPP */,
 				5F381CB81D94795E0023BA32 /* DataStructures */,
@@ -469,7 +481,7 @@
 		5FE2DB811D4D5ABD007CDFD2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = "Fabrizio Duroni";
 				TargetAttributes = {
 					5FE2DB881D4D5ABD007CDFD2 = {
@@ -500,7 +512,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				452B299B1E841F270018DAED /* GameOfTwoStacks.cpp in Sources */,
+				45D9FF041FB224760006285D /* Day1Quartiles.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,14 +528,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -562,14 +580,20 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

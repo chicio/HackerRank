@@ -87,13 +87,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DataStructures/GameOfTwoStacks.cpp"
-            timestampString = "511976696.324053"
+            filePath = "10DaysOfStatistics/Day0MeanMedianAndMode.cpp"
+            timestampString = "531732952.623269"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
-            landmarkName = "main()"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "calculateMeanFor(vector&lt;int&gt;&amp; numbers)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
