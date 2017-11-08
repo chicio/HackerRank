@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45D9FF041FB224760006285D /* Day1Quartiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45D9FF031FB224760006285D /* Day1Quartiles.cpp */; };
+		45D9FF081FB2EB750006285D /* Day1StandardDeviation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45D9FF071FB2EB750006285D /* Day1StandardDeviation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +55,8 @@
 		45D07BAC1DC0C5750048584F /* StringsMakingAnagrams.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringsMakingAnagrams.cpp; sourceTree = "<group>"; };
 		45D9FF011FB21FCF0006285D /* Day0WeightedMean.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day0WeightedMean.cpp; sourceTree = "<group>"; };
 		45D9FF031FB224760006285D /* Day1Quartiles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1Quartiles.cpp; sourceTree = "<group>"; };
+		45D9FF051FB22AC50006285D /* Day1InterquartileRange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1InterquartileRange.cpp; sourceTree = "<group>"; };
+		45D9FF071FB2EB750006285D /* Day1StandardDeviation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1StandardDeviation.cpp; sourceTree = "<group>"; };
 		45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
 		45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
@@ -216,6 +218,8 @@
 				45AA88A81FB08C620032740B /* Day0MeanMedianAndMode.cpp */,
 				45D9FF011FB21FCF0006285D /* Day0WeightedMean.cpp */,
 				45D9FF031FB224760006285D /* Day1Quartiles.cpp */,
+				45D9FF051FB22AC50006285D /* Day1InterquartileRange.cpp */,
+				45D9FF071FB2EB750006285D /* Day1StandardDeviation.cpp */,
 			);
 			path = 10DaysOfStatistics;
 			sourceTree = SOURCE_ROOT;
@@ -512,7 +516,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D9FF041FB224760006285D /* Day1Quartiles.cpp in Sources */,
+				45D9FF081FB2EB750006285D /* Day1StandardDeviation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
