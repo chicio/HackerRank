@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45D9FF081FB2EB750006285D /* Day1StandardDeviation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45D9FF071FB2EB750006285D /* Day1StandardDeviation.cpp */; };
+		45DA0F171FB73456004F7EF4 /* Day4BinomialDistributionI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 45DA0F161FB73456004F7EF4 /* Day4BinomialDistributionI.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +57,7 @@
 		45D9FF031FB224760006285D /* Day1Quartiles.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1Quartiles.cpp; sourceTree = "<group>"; };
 		45D9FF051FB22AC50006285D /* Day1InterquartileRange.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1InterquartileRange.cpp; sourceTree = "<group>"; };
 		45D9FF071FB2EB750006285D /* Day1StandardDeviation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1StandardDeviation.cpp; sourceTree = "<group>"; };
+		45DA0F161FB73456004F7EF4 /* Day4BinomialDistributionI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day4BinomialDistributionI.cpp; sourceTree = "<group>"; };
 		45E7F82E1DB0F93100CA07DF /* Day27Testing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day27Testing.swift; sourceTree = "<group>"; };
 		45EAAC591D9A8C590037B8D1 /* Day10BinaryNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day10BinaryNumbers.swift; sourceTree = "<group>"; };
 		45EAAC5B1D9A97340037B8D1 /* DynamicArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicArray.cpp; sourceTree = "<group>"; };
@@ -220,6 +221,7 @@
 				45D9FF031FB224760006285D /* Day1Quartiles.cpp */,
 				45D9FF051FB22AC50006285D /* Day1InterquartileRange.cpp */,
 				45D9FF071FB2EB750006285D /* Day1StandardDeviation.cpp */,
+				45DA0F161FB73456004F7EF4 /* Day4BinomialDistributionI.cpp */,
 			);
 			path = 10DaysOfStatistics;
 			sourceTree = SOURCE_ROOT;
@@ -516,7 +518,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45D9FF081FB2EB750006285D /* Day1StandardDeviation.cpp in Sources */,
+				45DA0F171FB73456004F7EF4 /* Day4BinomialDistributionI.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
