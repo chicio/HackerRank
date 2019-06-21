@@ -1,3 +1,8 @@
+def f(arr:List[Int]):List[Int] = arr.foldLeft(List[Int]()) { 
+    (reversedList, element) => element :: reversedList 
+};
+
+/*
 def f(arr:List[Int]):List[Int] = {
     var reversedList: List[Int] = List.fill(arr.length)(0)
     arr.zipWithIndex
@@ -6,3 +11,4 @@ def f(arr:List[Int]):List[Int] = {
        }
     return reversedList
 }
+*/
