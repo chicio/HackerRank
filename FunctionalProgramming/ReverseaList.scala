@@ -3,6 +3,7 @@ def f(arr:List[Int]):List[Int] = arr.foldLeft(List[Int]()) {
 };
 
 /*
+// Erroneous firt implementation
 def f(arr:List[Int]):List[Int] = {
     var reversedList: List[Int] = List.fill(arr.length)(0)
     arr.zipWithIndex
